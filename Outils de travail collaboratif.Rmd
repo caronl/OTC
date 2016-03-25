@@ -1,0 +1,10 @@
+---
+title: "Outils de travail collaboratif"
+author: "Laurent Caron"
+date: "March 23, 2016"
+output:
+  ioslides_presentation:
+    transition: faster
+    widescreen: yes
+subtitle: "Atelier interactif"
+---
