@@ -1,0 +1,14 @@
+---
+title: "Exercice 1"
+output: html_document
+---
+
+## 
+
+Dans l'invite de commande de R, taper les commandes suivantes :
+
+```{r echo = TRUE, eval = FALSE}
+install("rmarkdown")
+
+library(rmarkdown)
+```

@@ -1,0 +1,28 @@
+---
+title: "Exercice 3"
+output: html_document
+---
+
+## 
+
+Code source pour reproduire la question posée par l'utilisateur Stack Overflow
+
+The following code is obviously wrong. What's the problem?
+
+```{r eval = FALSE, echo=TRUE}
+i <- 0.1
+i <- 1 + 0.05
+i
+
+### <b>
+## [1] 0.15
+### </b>
+
+if(i==0.15) cat("i equals 0.15") else cat("i does not equal 0.15")
+
+
+### <b>
+## i does not equal 0.15
+### </b>
+```
+

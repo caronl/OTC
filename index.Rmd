@@ -9,48 +9,64 @@ output:
 subtitle: "Atelier interactif"
 ---
 
-# Motivation | Pourquoi RMarkdown et Github?
+# Mise en contexte
 
-## Moi quand j'étais à votre place
+## Mise en contexte
+
+Histoire Samuel Cabral Cruz
+
+(image Screenshot du post)
+
+## Plan de match
+
+RMarkdown
+
+Github
+
+# RMarkdown
+
+## RMarkdown
 
 ![](https://rawgit.com/LCULaval/OTC/master/images/img_TP_intro_II.JPG)
+
+Recherche reproductible
+
+Automatisation
+
+Conversion rapide en plusieurs formats
+
+(image avec les flèches sur la page d'accueil rmarkdown.rstudio.com)
+
+Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) ?
+
+## RMarkdown
+
+Langage de balisage léger
+  
+  * wikitexte (image ?)
+  
+  * Markdown
+  
+    - RMarkdown
+    
+## Qui utilise Markdown?
+
+![](https://rawgit.com/LCULaval/OTC/master/images\img_stack_overflow.jpg)
+
+## Qui utilise Markdown?
+
+(image de GitHub)
+
+## RMarkdown
+
+(image screenshot TP)
+
+(image équivalent rmd)
+
+introduire features
 
 ## Git, GitHub
 
 * Git : logiciel de gestion de versions
     - GitHub : hébergement et gestion du développement de logiciels
     - GitHub.com : ...
-    
-## RMarkdown
-
-* Markdown
-    - RMarkdown
-"Recherche reproductible" ...
-
-## Qui utilise Markdown?
-
-![](https://rawgit.com/LCULaval/OTC/master/images/img_stack_overflow.jpg)
-
-## Plus tard
-
-Code source pour reproduire la question posée par l'utilisateur Stack Overflow
-
-The following code is obviously wrong. What's the problem?
-
-```{r eval = FALSE, echo=TRUE}
-i <- 0.1
-i <- 1 + 0.05
-i
-
-### <b>
-## [1] 0.15
-### </b>
-
-if(i==0.15) cat("i equals 0.15") else cat("i does not equal 0.15")
-
-
-### <b>
-## i does not equal 0.15
-### </b>
-```
-
