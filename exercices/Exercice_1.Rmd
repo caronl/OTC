@@ -1,14 +1,16 @@
 ---
-title: "Exercice 1"
+title: "Exercice 1 : Installation de R Markdown"
 output: html_document
 ---
 
 ## 
 
+Ouvrir RStudio.
+
 Dans l'invite de commande de R, taper les commandes suivantes :
 
 ```{r echo = TRUE, eval = FALSE}
-install("rmarkdown")
+install.packages("rmarkdown")
 
 library(rmarkdown)
 ```
