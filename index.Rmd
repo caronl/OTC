@@ -27,7 +27,7 @@ Github
 
 ## RMarkdown
 
-![](https://rawgit.com/LCULaval/OTC/master/images/img_TP_intro_II.JPG)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
 
 Recherche reproductible
 
@@ -51,7 +51,7 @@ Langage de balisage léger
     
 ## Qui utilise Markdown?
 
-![](https://rawgit.com/LCULaval/OTC/master/images\img_stack_overflow.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images\img_stack_overflow.jpg)
 
 ## Qui utilise Markdown?
 
