@@ -27,6 +27,8 @@ $\quad$ ancien étudiant de l'École d'actuariat de l'Université Laval
 
 ## Plan de match
 
+### Markdown
+
 ### R Markdown
 
 (image Logo?)
@@ -35,7 +37,51 @@ $\quad$ ancien étudiant de l'École d'actuariat de l'Université Laval
 
 (image Logo?)
 
+# Markdown
+
+## Markdown
+
+Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
+  
+  * wikitexte
+  
+  * Markdown
+
+## Qui utilise Markdown?
+
+### GitHub
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg)
+    
+## Qui utilise Markdown?
+
+### GitHub
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub.jpg)
+
+## Qui utilise Markdown?
+
+### GitHub
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg)
+
+## Qui utilise Markdown?
+
+### Stack Exchange
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange.jpg)
+
+## Qui utilise Markdown?
+
+### Stack Overflow
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow.jpg)
+
+## Markdown
+
+Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
+
 # R Markdown
+
+## R Markdown
+
+- R Markdown = R + Markdown
 
 ## R Markdown
 
@@ -56,37 +102,6 @@ Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) 
 - Adaptation rapide en plusieurs formats
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
-
-## R Markdown
-
-Langage de balisage léger : structure, équations, tableaux, titres, etc.
-  
-  * wikitexte
-  
-  * Markdown
-  
-    - R Markdown = R + Markdown
-
-## Qui utilise Markdown?
-
-### GitHub
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg)
-    
-## Qui utilise Markdown?
-
-### GitHub
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub.jpg)
-
-## Qui utilise Markdown?
-
-### GitHub
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg)
-
-## Qui utilise Markdown?
-
-### Stack Overflow
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow.jpg)
-
 
 ## R Markdown
 
