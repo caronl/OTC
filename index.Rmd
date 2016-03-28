@@ -13,60 +13,179 @@ subtitle: "Atelier interactif"
 
 ## Mise en contexte
 
-Histoire Samuel Cabral Cruz
+« Finalement, comme plusieurs d'entre-vous n'ont pas beaucoup de temps
+pour (...) reprendre tout ce que vous venez de produire en R pour en faire
+un rapport avec de multiple copier/coller/effacer/modifier/jeter/recommencer,
+il serait peut-être intéressant pour vous de commencer à utiliser RMarkdown.»
 
-(image Screenshot du post)
+« Un autre outil très intéressant lorsque vous travaillerez sur vos projets en équipe serait l'adoption du programme Git (Lab ou Hub) qui consiste en quelque sorte en un Dropbox versionné (...).»
+
+
+$\quad$ - Samuel Cabral Cruz - 
+
+$\quad$ ancien étudiant de l'École d'actuariat de l'Université Laval
 
 ## Plan de match
 
-RMarkdown
+### R Markdown
 
-Github
+(image Logo?)
 
-# RMarkdown
+### Github
 
-## RMarkdown
+(image Logo?)
+
+# R Markdown
+
+## R Markdown
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
 
-Recherche reproductible
-
-Automatisation
-
-Conversion rapide en plusieurs formats
-
-(image avec les flèches sur la page d'accueil rmarkdown.rstudio.com)
-
 Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) ?
 
-## RMarkdown
+## R Markdown
 
-Langage de balisage léger
+### Avantages
+
+- Courte période d'apprentissage
+
+- Recherche reproductible
+
+- Automatisation
+
+- Adaptation rapide en plusieurs formats
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
+
+## R Markdown
+
+Langage de balisage léger : structure, équations, tableaux, titres, etc.
   
-  * wikitexte (image ?)
+  * wikitexte
   
   * Markdown
   
-    - RMarkdown
+    - R Markdown = R + Markdown
+
+## Qui utilise Markdown?
+
+### GitHub
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg)
     
 ## Qui utilise Markdown?
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images\img_stack_overflow.jpg)
+### GitHub
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub.jpg)
 
 ## Qui utilise Markdown?
 
-(image de GitHub)
+### GitHub
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg)
 
-## RMarkdown
+## Qui utilise Markdown?
 
-(image screenshot TP)
+### Stack Overflow
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow.jpg)
 
-(image équivalent rmd)
 
-introduire features
+## R Markdown
+
+Extrait du travail pratique
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II_rapport.jpg)
+
+```{r echo=FALSE, eval=TRUE}
+resultats <- data.frame("Joueur" = c("J1", "J2", "J3", "J4"), "Nombre de gains" = c(4829.750, 1723.250, 1697.083, 1749.917), "Prob de victoire" = c(0.4829750, 0.1723250, 0.1697083, 0.1749917), row.names = "Joueur")
+resultats <- t(resultats)
+```
+
+## R Markdown
+
+Première solution : simplement en affichant le data.frame
+
+```{r echo = FALSE, eval = TRUE}
+  resultats
+```
+
+Code source ayant produit ce résultat : 
+
+    `r ''````{r}
+      resultats
+    ```
+
+## R Markdown
+
+Deuxième solution : fonctions knitr
+
+```{r kable, echo = FALSE, eval = TRUE}
+  library(knitr)
+  kable(resultats)
+```  
+
+Code source ayant produit ce résultat : 
+
+    `r ''````{r kable}
+      library(knitr)
+      kable(resultats)
+    ```
+## R Markdown
+
+Options d'affichage du code R :
+
+**echo** : affiche le code source si **TRUE** (par défaut)
+
+**eval** : affiche la sortie si **TRUE** (par défaut)
+
+## R Markdown {.smaller}
+
+<div class="columns-2">
+
+**Code source**
+
+    `r ''````{r echo = TRUE, eval = TRUE}
+      ( i <- 5 )
+    ```
+
+
+
+    
+
+    `r ''````{r echo = TRUE, eval = FALSE}
+      ( i <- 5 )
+    ```
+
+
+
+    `r ''````{r echo = FALSE, eval = TRUE}
+      ( i <- 5 )
+    ```
+    
+    
+**Sortie**
+
+```{r echo = TRUE, eval = TRUE}
+  (i <- 5)
+```
+    -----------------------------------------
+```{r echo = TRUE, eval = FALSE}
+  (i <- 5)
+```
+    -----------------------------------------
+```{r echo = FALSE, eval = TRUE}
+  (i <- 5)
+```
+
+</div>
+
 
 ## Git, GitHub
 
 * Git : logiciel de gestion de versions
     - GitHub : hébergement et gestion du développement de logiciels
     - GitHub.com : ...
+    
+## Projets connus hébergés sur GitHub
+
+RStudio
+RMarkdown
+... en trouver d'autres!

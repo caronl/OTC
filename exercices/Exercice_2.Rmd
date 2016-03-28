@@ -27,8 +27,10 @@ Un aperçu du document que vous avez créé est disponible dans l'onglet **Viewe
 
 La version compilée est également disponible à l'endroit où vous avez préalablement enregistré le code source.
 
-Pour les utilisateurs d'un autre éditeur que RStudio, vous pouvez compiler le document dans sa forme finale à l'aide de la commande
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_6.JPG)
+
+Pour compiler le code source à partir d'un autre éditeur que RStudio, vous pouvez utiliser la commande
 
 ```{r echo = TRUE, eval = FALSE}
-rmarkdown::render("input.Rmd")
+rmarkdown::render("chemin/du/code/source.Rmd")
 ```

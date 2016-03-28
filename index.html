@@ -98,60 +98,181 @@
 
 </article></slide><slide class=''><hgroup><h2>Mise en contexte</h2></hgroup><article  id="mise-en-contexte-1">
 
-<p>Histoire Samuel Cabral Cruz</p>
+<p>« Finalement, comme plusieurs d&#39;entre-vous n&#39;ont pas beaucoup de temps pour (&#8230;) reprendre tout ce que vous venez de produire en R pour en faire un rapport avec de multiple copier/coller/effacer/modifier/jeter/recommencer, il serait peut-être intéressant pour vous de commencer à utiliser RMarkdown.»</p>
 
-<p>(image Screenshot du post)</p>
+<p>« Un autre outil très intéressant lorsque vous travaillerez sur vos projets en équipe serait l&#39;adoption du programme Git (Lab ou Hub) qui consiste en quelque sorte en un Dropbox versionné (&#8230;).»</p>
+
+<p>\(\quad\) - Samuel Cabral Cruz -</p>
+
+<p>\(\quad\) ancien étudiant de l&#39;École d&#39;actuariat de l&#39;Université Laval</p>
 
 </article></slide><slide class=''><hgroup><h2>Plan de match</h2></hgroup><article  id="plan-de-match">
 
-<p>RMarkdown</p>
+<h3>R Markdown</h3>
 
-<p>Github</p>
+<p>(image Logo?)</p>
 
-</article></slide><slide class='segue dark nobackground'><hgroup class = 'auto-fadein'><h2>RMarkdown</h2></hgroup><article  id="rmarkdown">
+<h3>Github</h3>
 
-</article></slide><slide class=''><hgroup><h2>RMarkdown</h2></hgroup><article  id="rmarkdown-1">
+<p>(image Logo?)</p>
 
-<img src='https://rawgit.com/LCULaval/OTC/master/images/img_TP_intro_II.JPG' title=''/>
+</article></slide><slide class='segue dark nobackground'><hgroup class = 'auto-fadein'><h2>R Markdown</h2></hgroup><article  id="r-markdown-1">
 
-<p>Recherche reproductible</p>
+</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-2">
 
-<p>Automatisation</p>
-
-<p>Conversion rapide en plusieurs formats</p>
-
-<p>(image avec les flèches sur la page d&#39;accueil rmarkdown.rstudio.com)</p>
+<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG' title=''/>
 
 <p>Qu&#39;arrive-t-il quand on change le code (ordre, structure, données, résultats) ?</p>
 
-</article></slide><slide class=''><hgroup><h2>RMarkdown</h2></hgroup><article  id="rmarkdown-2">
+</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-3">
 
-<p>Langage de balisage léger</p>
+<h3>Avantages</h3>
 
 <ul>
-<li><p>wikitexte (image ?)</p></li>
+<li><p>Courte période d&#39;apprentissage</p></li>
+<li><p>Recherche reproductible</p></li>
+<li><p>Automatisation</p></li>
+<li><p>Adaptation rapide en plusieurs formats</p></li>
+</ul>
+
+<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg' title=''/>
+
+</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-4">
+
+<p>Langage de balisage léger : structure, équations, tableaux, titres, etc.</p>
+
+<ul>
+<li><p>wikitexte</p></li>
 <li><p>Markdown</p>
 
 <ul>
-<li>RMarkdown</li>
+<li>R Markdown = R + Markdown</li>
 </ul></li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown">
 
-<img src='https://rawgit.com/LCULaval/OTC/master/images\img_stack_overflow.jpg' title=''/>
+<h3>GitHub</h3>
+
+<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg' title=''/>
 
 </article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown-1">
 
-<p>(image de GitHub)</p>
+<h3>GitHub</h3>
 
-</article></slide><slide class=''><hgroup><h2>RMarkdown</h2></hgroup><article  id="rmarkdown-3">
+<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub.jpg' title=''/>
 
-<p>(image screenshot TP)</p>
+</article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown-2">
 
-<p>(image équivalent rmd)</p>
+<h3>GitHub</h3>
 
-<p>introduire features</p>
+<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg' title=''/>
+
+</article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown-3">
+
+<h3>Stack Overflow</h3>
+
+<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow.jpg' title=''/>
+
+</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-5">
+
+<p>Extrait du travail pratique</p>
+
+<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II_rapport.jpg' title=''/>
+
+</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-6">
+
+<p>Première solution : simplement en affichant le data.frame</p>
+
+<pre >##                           J1          J2           J3           J4
+## Nombre.de.gains  4829.750000 1723.250000 1697.0830000 1749.9170000
+## Prob.de.victoire    0.482975    0.172325    0.1697083    0.1749917</pre>
+
+<p>Code source ayant produit ce résultat :</p>
+
+<pre >```{r}
+  resultats
+```</pre>
+
+</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-7">
+
+<p>Deuxième solution : fonctions knitr</p>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left"></th>
+<th align="right">J1</th>
+<th align="right">J2</th>
+<th align="right">J3</th>
+<th align="right">J4</th>
+</tr>
+<tr class="odd">
+<td align="left">Nombre.de.gains</td>
+<td align="right">4829.750000</td>
+<td align="right">1723.250000</td>
+<td align="right">1697.0830000</td>
+<td align="right">1749.9170000</td>
+</tr>
+<tr class="even">
+<td align="left">Prob.de.victoire</td>
+<td align="right">0.482975</td>
+<td align="right">0.172325</td>
+<td align="right">0.1697083</td>
+<td align="right">0.1749917</td>
+</tr>
+</table>
+
+<p>Code source ayant produit ce résultat :</p>
+
+<pre >```{r kable}
+  library(knitr)
+  kable(resultats)
+```</pre>
+
+</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-8">
+
+<p>Options d&#39;affichage du code R :</p>
+
+<p><strong>echo</strong> : affiche le code source si <strong>TRUE</strong> (par défaut)</p>
+
+<p><strong>eval</strong> : affiche la sortie si <strong>TRUE</strong> (par défaut)</p>
+
+</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-9" class="smaller">
+
+<div class="columns-2">
+<p><strong>Code source</strong></p>
+
+<pre >```{r echo = TRUE, eval = TRUE}
+  ( i &lt;- 5 )
+```
+
+
+
+
+
+```{r echo = TRUE, eval = FALSE}
+  ( i &lt;- 5 )
+```
+
+
+
+```{r echo = FALSE, eval = TRUE}
+  ( i &lt;- 5 )
+```</pre>
+
+<p><strong>Sortie</strong></p>
+
+<pre class = 'prettyprint lang-r'>  (i &lt;- 5)</pre>
+
+<pre >## [1] 5</pre>
+
+<pre >-----------------------------------------</pre>
+
+<pre class = 'prettyprint lang-r'>  (i &lt;- 5)</pre>
+
+<pre >-----------------------------------------</pre>
+
+<pre >## [1] 5</pre></div>
 
 </article></slide><slide class=''><hgroup><h2>Git, GitHub</h2></hgroup><article  id="git-github">
 
@@ -162,7 +283,11 @@
 <li>GitHub : hébergement et gestion du développement de logiciels</li>
 <li>GitHub.com : &#8230;</li>
 </ul></li>
-</ul></article></slide>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>Projets connus hébergés sur GitHub</h2></hgroup><article  id="projets-connus-heberges-sur-github">
+
+<p>RStudio RMarkdown &#8230; en trouver d&#39;autres!</p></article></slide>
 
 
   <slide class="backdrop"></slide>
