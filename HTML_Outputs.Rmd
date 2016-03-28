@@ -1,3 +1,77 @@
+
+
+
+## Options d'affichage
+
+
+Code source et sortie
+```{r echo = TRUE, eval = TRUE}
+  (i <- 5)
+```
+
+
+
+
+--------------------
+
+Code source
+```{r echo = TRUE, eval = FALSE}
+  (i <- 5)
+```
+
+--------------------
+
+Sortie
+```{r echo = FALSE, eval = TRUE}
+  (i <- 5)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Analyse de l'objet R `cars` 
+
+En premier lieu, un aperçu graphique de la distance en fonction de la vitesse :
+
+```{r}
+plot(cars)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Première solution
 
 ```{r echo=FALSE, eval=TRUE}
@@ -27,3 +101,32 @@ Code source ayant produit ce résultat :
       library(knitr)
       kable(resultats)
     ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

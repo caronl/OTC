@@ -29,7 +29,7 @@ La version compilée est également disponible à l'endroit où vous avez préal
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_6.JPG)
 
-Pour compiler le code source à partir d'un autre éditeur que RStudio, vous pouvez utiliser la commande
+Pour compiler le code source à partir d'un autre éditeur que RStudio, vous pouvez écrire la commande R suivante à la ligne de commande R de votre éditeur :
 
 ```{r echo = TRUE, eval = FALSE}
 rmarkdown::render("chemin/du/code/source.Rmd")

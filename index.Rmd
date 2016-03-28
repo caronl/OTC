@@ -29,11 +29,12 @@ $\quad$ ancien étudiant de l'École d'actuariat de l'Université Laval
 
 ### Markdown
 
+(image Logo?)
 ### R Markdown
 
-(image Logo?)
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_RMarkdownReference.png)
 
-### Github
+### Git
 
 (image Logo?)
 
@@ -53,23 +54,15 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
       
 ## Markdown
 
-(image code source + resultat côte à côte)
+Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
 
-## Qui utilise Markdown?
-
-### GitHub
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg)
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_source_Markdown.jpg)
     
 ## Qui utilise Markdown?
 
 ### GitHub
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub.jpg)
-
-## Qui utilise Markdown?
-
-### GitHub
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg)
 
 ## Qui utilise Markdown?
 
@@ -85,11 +78,15 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
 
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_source_Markdown.jpg)
+
 # R Markdown
 
 ## R Markdown
 
-- R Markdown = R + Markdown
+R Markdown = R + Markdown
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_cote_a_cote_RMarkdown.jpg)
 
 ## Exercice 1
 
@@ -142,6 +139,8 @@ Deuxième solution : fonctions knitr
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_2.jpg)
 
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_RMarkdownFlow.png)
+
 
 ## R Markdown
 
@@ -151,47 +150,11 @@ Options d'affichage du code R :
 
 **eval** : affiche la sortie si **TRUE** (par défaut)
 
-## R Markdown {.smaller}
+## R Markdown
 
-<div class="columns-2">
+Options d'affichage du code R :
 
-**Code source**
-
-    `r ''````{r echo = TRUE, eval = TRUE}
-      ( i <- 5 )
-    ```
-
-
-
-    
-
-    `r ''````{r echo = TRUE, eval = FALSE}
-      ( i <- 5 )
-    ```
-
-
-
-    `r ''````{r echo = FALSE, eval = TRUE}
-      ( i <- 5 )
-    ```
-    
-    
-**Sortie**
-
-```{r echo = TRUE, eval = TRUE}
-  (i <- 5)
-```
-    -----------------------------------------
-```{r echo = TRUE, eval = FALSE}
-  (i <- 5)
-```
-    -----------------------------------------
-```{r echo = FALSE, eval = TRUE}
-  (i <- 5)
-```
-
-</div>
-
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_options_affichage.jpg)
 
 ## Exercice 3
 
@@ -200,14 +163,37 @@ Les exercices et tout le contenu de la présentation se trouvent sur
 [LCULaval.github.io](http://lculaval.github.io)
 
 
+
+
+
+
+
+
+
+
+
+## Qui utilise Markdown?
+
+### GitHub
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg)
+
+## Markdown + GitHub
+
+### GitHub
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg)
+
 ## Git, GitHub
 
-* Git : logiciel de gestion de versions
-    - GitHub : hébergement et gestion du développement de logiciels
-    - GitHub.com : ...
+* Git : système de gestion de versions
+    - GitHub.com : hébergement et gestion du développement de logiciels
+    - GitHub Desktop : logiciel pour gérer les dépôts
     
-## Projets connus hébergés sur GitHub
+## GitLab vs. GitHub
 
-RStudio
-RMarkdown
-... en trouver d'autres!
+GitLab
+    * plus commercial
+    * entreprises utilisant GitLab : Samsung, IBM, etc.
+    
+GitHub
+    * pour projets opensource
+    * RStudio, RMarkdown, etc.
