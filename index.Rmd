@@ -44,8 +44,16 @@ $\quad$ ancien étudiant de l'École d'actuariat de l'Université Laval
 Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
   
   * wikitexte
+      * Wikipedia
   
   * Markdown
+      * GitHub
+      * Stack Exchange
+      * Stack Overflow
+      
+## Markdown
+
+(image code source + resultat côte à côte)
 
 ## Qui utilise Markdown?
 
@@ -83,11 +91,17 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 - R Markdown = R + Markdown
 
-## R Markdown
+## Exercice 1
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
+Les exercices et tout le contenu de la présentation se trouvent sur
 
-Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) ?
+[LCULaval.github.io](http://lculaval.github.io)
+
+## Exercice 2
+
+Les exercices et tout le contenu de la présentation se trouvent sur
+
+[LCULaval.github.io](http://lculaval.github.io)
 
 ## R Markdown
 
@@ -105,44 +119,30 @@ Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) 
 
 ## R Markdown
 
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
+
+Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) ?
+
+## R Markdown
+
 Extrait du travail pratique
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II_rapport.jpg)
-
-```{r echo=FALSE, eval=TRUE}
-resultats <- data.frame("Joueur" = c("J1", "J2", "J3", "J4"), "Nombre de gains" = c(4829.750, 1723.250, 1697.083, 1749.917), "Prob de victoire" = c(0.4829750, 0.1723250, 0.1697083, 0.1749917), row.names = "Joueur")
-resultats <- t(resultats)
-```
 
 ## R Markdown
 
 Première solution : simplement en affichant le data.frame
 
-```{r echo = FALSE, eval = TRUE}
-  resultats
-```
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_1.jpg)
 
-Code source ayant produit ce résultat : 
-
-    `r ''````{r}
-      resultats
-    ```
 
 ## R Markdown
 
 Deuxième solution : fonctions knitr
 
-```{r kable, echo = FALSE, eval = TRUE}
-  library(knitr)
-  kable(resultats)
-```  
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_2.jpg)
 
-Code source ayant produit ce résultat : 
 
-    `r ''````{r kable}
-      library(knitr)
-      kable(resultats)
-    ```
 ## R Markdown
 
 Options d'affichage du code R :
@@ -191,6 +191,13 @@ Options d'affichage du code R :
 ```
 
 </div>
+
+
+## Exercice 3
+
+Les exercices et tout le contenu de la présentation se trouvent sur
+
+[LCULaval.github.io](http://lculaval.github.io)
 
 
 ## Git, GitHub

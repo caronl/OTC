@@ -1,0 +1,48 @@
+---
+title: "Features"
+author: "Laurent Caron"
+date: "March 27, 2016"
+output: ioslides_presentation
+---
+
+
+## Nouvelle slide
+
+Équations au fil du texte : $2i / 10i = \frac{1}{5}$
+
+Équations sur une nouvelle ligne : $$2i / 10i = \frac{1}{5}$$
+
+## Nouvelle slide
+
+Code au fil du texte : `{r} 2 + 3`
+
+Code dans une boîte : 
+```{r}
+2 + 3
+```
+
+## Nouvelle slide | Sous-titre
+
+## Nouvelle slide {.smaller}
+
+Texte plus petit
+
+## Nouvelle slide {.flexbox .vcenter}
+
+Texte centré
+
+## Nouvelle slide
+
+<div class="columns-2">
+  Texte en deux colonnes
+  
+  Texte en deux colonnes
+</div>
+
+## Nouvelle slide
+
+```{r kable, echo = FALSE, eval = TRUE}
+  library(knitr)
+  kable(matrix(1:12, 3, 4))
+```
+

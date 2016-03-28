@@ -1,0 +1,29 @@
+# Première solution
+
+```{r echo=FALSE, eval=TRUE}
+resultats <- data.frame("Joueur" = c("J1", "J2", "J3", "J4"), "Nombre de gains" = c(4829.750, 1723.250, 1697.083, 1749.917), "Prob de victoire" = c(0.4829750, 0.1723250, 0.1697083, 0.1749917), row.names = "Joueur")
+resultats <- t(resultats)
+```
+
+```{r echo = FALSE, eval = TRUE}
+  resultats
+```
+
+Code source ayant produit ce résultat : 
+
+    `r ''````{r}
+      resultats
+    ```
+# Deuxième solution
+
+```{r kable, echo = FALSE, eval = TRUE}
+  library(knitr)
+  kable(resultats)
+```  
+
+Code source ayant produit ce résultat : 
+
+    `r ''````{r kable}
+      library(knitr)
+      kable(resultats)
+    ```

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Outils de travail collaboratif</title>
+  <title>Features</title>
 
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -10,7 +10,7 @@
 
 
 
-  <meta name="date" content="2016-03-23" />
+  <meta name="date" content="2016-03-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,9 +26,8 @@
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Outils de travail collaboratif',
-                        subtitle: 'Atelier interactif',
-                useBuilds: true,
+                title: 'Features',
+                        useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
         enableTouch: true,
@@ -59,18 +58,18 @@
     }
 
     slides > slide {
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
     }
 
     .auto-fadein {
       -webkit-transition: opacity 0.6s ease-in;
-      -webkit-transition-delay: 0.2s;
-      -moz-transition: opacity 0.6s ease-in 0.2s;
-      -o-transition: opacity 0.6s ease-in 0.2s;
-      transition: opacity 0.6s ease-in 0.2s;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
       opacity: 0;
     }
 
@@ -82,7 +81,7 @@
 
 <body style="opacity: 0">
 
-<slides class="layout-widescreen">
+<slides>
 
   <slide class="title-slide segue nobackground">
         <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
@@ -90,215 +89,65 @@
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">March 23, 2016</p>
+            <p style="margin-top: 6px; margin-left: -2px;">March 27, 2016</p>
           </hgroup>
   </slide>
 
-<slide class='segue dark nobackground'><hgroup class = 'auto-fadein'><h2>Mise en contexte</h2></hgroup><article  id="mise-en-contexte">
+<slide class=''><hgroup><h2>Nouvelle slide</h2></hgroup><article  id="nouvelle-slide">
 
-</article></slide><slide class=''><hgroup><h2>Mise en contexte</h2></hgroup><article  id="mise-en-contexte-1">
+<p>Équations au fil du texte : \(2i / 10i = \frac{1}{5}\)</p>
 
-<p>« Finalement, comme plusieurs d&#39;entre-vous n&#39;ont pas beaucoup de temps pour (&#8230;) reprendre tout ce que vous venez de produire en R pour en faire un rapport avec de multiple copier/coller/effacer/modifier/jeter/recommencer, il serait peut-être intéressant pour vous de commencer à utiliser RMarkdown.»</p>
+<p>Équations sur une nouvelle ligne : \[2i / 10i = \frac{1}{5}\]</p>
 
-<p>« Un autre outil très intéressant lorsque vous travaillerez sur vos projets en équipe serait l&#39;adoption du programme Git (Lab ou Hub) qui consiste en quelque sorte en un Dropbox versionné (&#8230;).»</p>
+</article></slide><slide class=''><hgroup><h2>Nouvelle slide</h2></hgroup><article  id="nouvelle-slide-1">
 
-<p>\(\quad\) - Samuel Cabral Cruz -</p>
+<p>Code au fil du texte : <code>{r} 2 + 3</code></p>
 
-<p>\(\quad\) ancien étudiant de l&#39;École d&#39;actuariat de l&#39;Université Laval</p>
+<p>Code dans une boîte :</p>
 
-</article></slide><slide class=''><hgroup><h2>Plan de match</h2></hgroup><article  id="plan-de-match">
-
-<h3>Markdown</h3>
-
-<h3>R Markdown</h3>
-
-<p>(image Logo?)</p>
-
-<h3>Github</h3>
-
-<p>(image Logo?)</p>
-
-</article></slide><slide class='segue dark nobackground'><hgroup class = 'auto-fadein'><h2>Markdown</h2></hgroup><article  id="markdown-1">
-
-</article></slide><slide class=''><hgroup><h2>Markdown</h2></hgroup><article  id="markdown-2">
-
-<p>Langage de balisage léger : structure, équations, tableaux, titres, images, etc.</p>
-
-<ul>
-<li>wikitexte
-
-<ul>
-<li>Wikipedia</li>
-</ul></li>
-<li>Markdown
-
-<ul>
-<li>GitHub</li>
-<li>Stack Exchange</li>
-<li>Stack Overflow</li>
-</ul></li>
-</ul>
-
-</article></slide><slide class=''><hgroup><h2>Markdown</h2></hgroup><article  id="markdown-3">
-
-<p>(image code source + resultat côte à côte)</p>
-
-</article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown">
-
-<h3>GitHub</h3>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown-1">
-
-<h3>GitHub</h3>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown-2">
-
-<h3>GitHub</h3>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown-3">
-
-<h3>Stack Exchange</h3>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>Qui utilise Markdown?</h2></hgroup><article  id="qui-utilise-markdown-4">
-
-<h3>Stack Overflow</h3>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>Markdown</h2></hgroup><article  id="markdown-4">
-
-<p>Langage de balisage léger : structure, équations, tableaux, titres, images, etc.</p>
-
-</article></slide><slide class='segue dark nobackground'><hgroup class = 'auto-fadein'><h2>R Markdown</h2></hgroup><article  id="r-markdown-1">
-
-</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-2">
-
-<ul>
-<li>R Markdown = R + Markdown</li>
-</ul>
-
-</article></slide><slide class=''><hgroup><h2>Exercice 1</h2></hgroup><article  id="exercice-1">
-
-<p>Les exercices et tout le contenu de la présentation se trouvent sur</p>
-
-<p><a href='http://lculaval.github.io' title=''>LCULaval.github.io</a></p>
-
-</article></slide><slide class=''><hgroup><h2>Exercice 2</h2></hgroup><article  id="exercice-2">
-
-<p>Les exercices et tout le contenu de la présentation se trouvent sur</p>
-
-<p><a href='http://lculaval.github.io' title=''>LCULaval.github.io</a></p>
-
-</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-3">
-
-<h3>Avantages</h3>
-
-<ul>
-<li><p>Courte période d&#39;apprentissage</p></li>
-<li><p>Recherche reproductible</p></li>
-<li><p>Automatisation</p></li>
-<li><p>Adaptation rapide en plusieurs formats</p></li>
-</ul>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-4">
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG' title=''/>
-
-<p>Qu&#39;arrive-t-il quand on change le code (ordre, structure, données, résultats) ?</p>
-
-</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-5">
-
-<p>Extrait du travail pratique</p>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II_rapport.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-6">
-
-<p>Première solution : simplement en affichant le data.frame</p>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_1.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-7">
-
-<p>Deuxième solution : fonctions knitr</p>
-
-<img src='https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_2.jpg' title=''/>
-
-</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-8">
-
-<p>Options d&#39;affichage du code R :</p>
-
-<p><strong>echo</strong> : affiche le code source si <strong>TRUE</strong> (par défaut)</p>
-
-<p><strong>eval</strong> : affiche la sortie si <strong>TRUE</strong> (par défaut)</p>
-
-</article></slide><slide class=''><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown-9" class="smaller">
-
-<div class="columns-2">
-<p><strong>Code source</strong></p>
-
-<pre >```{r echo = TRUE, eval = TRUE}
-  ( i &lt;- 5 )
-```
-
-
-
-
-
-```{r echo = TRUE, eval = FALSE}
-  ( i &lt;- 5 )
-```
-
-
-
-```{r echo = FALSE, eval = TRUE}
-  ( i &lt;- 5 )
-```</pre>
-
-<p><strong>Sortie</strong></p>
-
-<pre class = 'prettyprint lang-r'>  (i &lt;- 5)</pre>
+<pre class = 'prettyprint lang-r'>2 + 3</pre>
 
 <pre >## [1] 5</pre>
 
-<pre >-----------------------------------------</pre>
+</article></slide><slide class=''><hgroup><h2>Nouvelle slide </h2><h3> Sous-titre</h3></hgroup><article  id="nouvelle-slide-sous-titre">
 
-<pre class = 'prettyprint lang-r'>  (i &lt;- 5)</pre>
+</article></slide><slide class=''><hgroup><h2>Nouvelle slide</h2></hgroup><article  id="nouvelle-slide-2" class="smaller">
 
-<pre >-----------------------------------------</pre>
+<p>Texte plus petit</p>
 
-<pre >## [1] 5</pre></div>
+</article></slide><slide class=''><hgroup><h2>Nouvelle slide</h2></hgroup><article  id="nouvelle-slide-3" class="flexbox vcenter">
 
-</article></slide><slide class=''><hgroup><h2>Exercice 3</h2></hgroup><article  id="exercice-3">
+<p>Texte centré</p>
 
-<p>Les exercices et tout le contenu de la présentation se trouvent sur</p>
+</article></slide><slide class=''><hgroup><h2>Nouvelle slide</h2></hgroup><article  id="nouvelle-slide-4">
 
-<p><a href='http://lculaval.github.io' title=''>LCULaval.github.io</a></p>
+<div class="columns-2">
+<p>Texte en deux colonnes</p>
 
-</article></slide><slide class=''><hgroup><h2>Git, GitHub</h2></hgroup><article  id="git-github">
+<p>Texte en deux colonnes</p></div>
 
-<ul>
-<li>Git : logiciel de gestion de versions
+</article></slide><slide class=''><hgroup><h2>Nouvelle slide</h2></hgroup><article  id="nouvelle-slide-5">
 
-<ul>
-<li>GitHub : hébergement et gestion du développement de logiciels</li>
-<li>GitHub.com : &#8230;</li>
-</ul></li>
-</ul>
-
-</article></slide><slide class=''><hgroup><h2>Projets connus hébergés sur GitHub</h2></hgroup><article  id="projets-connus-heberges-sur-github">
-
-<p>RStudio RMarkdown &#8230; en trouver d&#39;autres!</p></article></slide>
+<table class = 'rmdtable'>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">4</td>
+<td align="right">7</td>
+<td align="right">10</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">5</td>
+<td align="right">8</td>
+<td align="right">11</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">6</td>
+<td align="right">9</td>
+<td align="right">12</td>
+</tr>
+</table></article></slide>
 
 
   <slide class="backdrop"></slide>
