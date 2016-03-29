@@ -28,15 +28,15 @@ $\quad$ ancien étudiant de l'École d'actuariat de l'Université Laval
 ## Plan de match
 
 ### Markdown
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_Markdown_logo.png)
 
-(image Logo?)
 ### R Markdown
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_RMarkdownReference.png)
 
 ### Git
 
-(image Logo?)
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_Git_logo.png)
 
 # Markdown
 
@@ -66,13 +66,30 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 ## Qui utilise Markdown?
 
+### GitHub
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_RStudio_README_GitHub_source.jpg)
+
+## Qui utilise Markdown?
+
 ### Stack Exchange
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange.jpg)
 
 ## Qui utilise Markdown?
 
+### Stack Exchange
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_stack_exchange_source.jpg)
+
+## Qui utilise Markdown?
+
 ### Stack Overflow
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow.jpg)
+
+## Qui utilise Markdown?
+
+### Stack Overflow
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_stack_overflow_source.jpg)
 
 ## Markdown
 
@@ -81,6 +98,12 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_source_Markdown.jpg)
 
 # R Markdown
+
+## R Markdown
+
+R Markdown = R + Markdown
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_cote_a_cote_RMarkdown_basic.jpg)
 
 ## R Markdown
 
@@ -197,3 +220,5 @@ GitLab
 GitHub
     * pour projets opensource
     * RStudio, RMarkdown, etc.
+    
+## Citations
