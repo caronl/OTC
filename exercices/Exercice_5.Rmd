@@ -1,0 +1,19 @@
+---
+title: "Exercice 5 : formats R Markdown"
+output:
+  html_document
+---
+
+Dans RStudio, ouvrir le code source du document créé à l'exercice 4 et l'enregistrer sous un nouveau nom. Par exemple, **exercice_5**.
+
+Dans l'en-tête, supprimer le `:` de `html_document:`, puis supprimer les lignes suivantes :
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_5_1.jpg)
+
+Compiler le document et vérifier que l'aperçu est le bon.
+
+Dans l'en-tête, remplacer `html_document` par `word_document` :
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_5_2.jpg)
+
+Compiler le résultat, et comparer le document HTML au document word produit.

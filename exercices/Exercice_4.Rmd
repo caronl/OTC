@@ -11,13 +11,13 @@ Dans RStudio, ouvrir le code source du document créé à l'exercice 2 et l'enre
 
 Compiler le document à l'aide du bouton **Knit HTML**, et observer le résultat dans l'onglet **Viewer**.
 
-Remplacer la ligne 9 par une ligne vide, suivie du titre de section `# Exercice 4`, suivie par une ligne vide :
+Au-dessus du titre de sous-section `## R Markdown`, ajouter le titre de section `# Exercice 4`, entouré par 2 lignes vides :
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_2.jpg)
 
 Compiler le document à nouveau, puis observer les changements.
 
-Dans l'en-tête du document, ajouter l'option `toc: TRUE` sous `html_document:`, puis réorganiser l'indentation comme illustré ci-bas. Attention! Les lignes 3 et 4 doivent se terminer par un `:` pour indiquer qu'une option de niveau inférieur les suit :
+Dans l'en-tête du document, ajouter l'option `toc: TRUE` sous `html_document:`, puis réorganiser l'indentation comme illustré ci-bas. Attention! Les lignes `output:` et `html_document:` doivent se terminer par un `:` pour indiquer qu'une option de niveau inférieur les suit :
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_3.jpg)
 

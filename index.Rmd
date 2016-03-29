@@ -191,29 +191,31 @@ Les exercices et tout le contenu de la présentation se trouvent sur
 
 
 
+# Git
+
+## Git
+
+- Logiciel de gestion de versions décentralisé
+- Logiciel libre (_open source_)
+- Commande à la ligne
+    * ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_ligne_commande_git.jpg)
 
 
+## GitHub
 
+- GitHub.com : hébergement et gestion du développement de logiciels
+- GitHub Desktop : logiciel pour gérer les dépôts
+- pour projets opensource
+- RStudio, RMarkdown, etc.
+
+## GitLab
+
+- plus commercial
+- entreprises utilisant GitLab : Samsung, IBM, etc.
 
 ## Markdown + GitHub
 
 ### GitHub
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg)
-
-## Git, GitHub
-
-* Git : système de gestion de versions
-    - GitHub.com : hébergement et gestion du développement de logiciels
-    - GitHub Desktop : logiciel pour gérer les dépôts
-    
-## GitLab vs. GitHub
-
-GitLab
-    * plus commercial
-    * entreprises utilisant GitLab : Samsung, IBM, etc.
-    
-GitHub
-    * pour projets opensource
-    * RStudio, RMarkdown, etc.
     
 ## Citations
