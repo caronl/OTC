@@ -101,13 +101,13 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 ## R Markdown
 
-R Markdown = R + Markdown
+Version Markdown
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_cote_a_cote_RMarkdown_basic.jpg)
 
 ## R Markdown
 
-R Markdown = R + Markdown
+Version R Markdown
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_cote_a_cote_RMarkdown.jpg)
 
@@ -153,14 +153,14 @@ Extrait du travail pratique
 
 Première solution : simplement en affichant le data.frame
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_1.jpg)
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_solution_1.jpg)
 
 
 ## R Markdown
 
 Deuxième solution : fonctions knitr
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_2.jpg)
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_solution_2.jpg)
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_RMarkdownFlow.png)
 
@@ -194,11 +194,6 @@ Les exercices et tout le contenu de la présentation se trouvent sur
 
 
 
-
-## Qui utilise Markdown?
-
-### GitHub
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg)
 
 ## Markdown + GitHub
 

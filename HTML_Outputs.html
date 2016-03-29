@@ -161,16 +161,24 @@ if(i==0.15) cat(&quot;i equals 0.15&quot;) else cat(&quot;i does not equal 0.15&
 </div>
 <div id="premiere-solution" class="section level1">
 <h1>Première solution</h1>
+<p>Voici le tableau des résultats :</p>
 <pre><code>##                           J1          J2           J3           J4
 ## Nombre.de.gains  4829.750000 1723.250000 1697.0830000 1749.9170000
 ## Prob.de.victoire    0.482975    0.172325    0.1697083    0.1749917</code></pre>
-<p>Code source ayant produit ce résultat :</p>
-<pre><code>```{r}
+<p>On constate que …</p>
+<div id="code-source-ayant-produit-cette-sortie" class="section level3">
+<h3>Code source ayant produit cette sortie :</h3>
+<pre><code>Voici le tableau des résultats :
+```{r}
   resultats
-```</code></pre>
+```
+
+On constate que ...</code></pre>
+</div>
 </div>
 <div id="deuxieme-solution" class="section level1">
 <h1>Deuxième solution</h1>
+<p>Voici le tableau des résultats :</p>
 <table>
 <thead>
 <tr class="header">
@@ -198,11 +206,16 @@ if(i==0.15) cat(&quot;i equals 0.15&quot;) else cat(&quot;i does not equal 0.15&
 </tr>
 </tbody>
 </table>
-<p>Code source ayant produit ce résultat :</p>
-<pre><code>```{r kable}
-  library(knitr)
-  kable(resultats)
-```</code></pre>
+<p>On constate que …</p>
+<div id="code-source-ayant-produit-ce-resultat" class="section level3">
+<h3>Code source ayant produit ce résultat :</h3>
+<pre><code>Voici le tableau des résultats :
+```{r}
+  knitr::kable(resultats)
+```
+
+On constate que ...</code></pre>
+</div>
 </div>
 
 

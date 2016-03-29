@@ -225,54 +225,35 @@ resultats <- data.frame("Joueur" = c("J1", "J2", "J3", "J4"), "Nombre de gains" 
 resultats <- t(resultats)
 ```
 
+Voici le tableau des résultats :
 ```{r echo = FALSE, eval = TRUE}
   resultats
 ```
 
-Code source ayant produit ce résultat : 
+On constate que ...
 
+### Code source ayant produit cette sortie : 
+    Voici le tableau des résultats :
     `r ''````{r}
       resultats
     ```
+    
+    On constate que ...
+    
 # Deuxième solution
 
-```{r kable, echo = FALSE, eval = TRUE}
-  library(knitr)
-  kable(resultats)
+Voici le tableau des résultats :
+```{r, echo = FALSE, eval = TRUE}
+  knitr::kable(resultats)
 ```  
 
-Code source ayant produit ce résultat : 
+On constate que ...
 
-    `r ''````{r kable}
-      library(knitr)
-      kable(resultats)
+### Code source ayant produit ce résultat :
+
+    Voici le tableau des résultats :
+    `r ''````{r}
+      knitr::kable(resultats)
     ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+    On constate que ...
