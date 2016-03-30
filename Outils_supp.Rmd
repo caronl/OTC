@@ -1,0 +1,54 @@
+---
+title: "Outils supplémentaires"
+output:
+  html_document
+---
+
+****************************************
+
+## Équations
+
+Équations au fil du texte : $2i / 10i = \frac{1}{5}$
+
+Équations sur une nouvelle ligne : $$2i / 10i = \frac{1}{5}$$
+
+****************************************
+
+## Interaction avec R
+
+Code au fil du texte : `r 2 + 3`
+
+Code dans une boîte : 
+```{r}
+2 + 3
+```
+
+****************************************
+
+## Onglets {.tabset}
+
+### Onglet 1
+
+Contenu de l'onglet 1
+
+****************************************
+
+### Onglet 2
+
+Contenu de l'onglet 2
+
+****************************************
+
+## Tableaux
+
+```{r echo = FALSE}
+(d <- data.frame(X = sample(250:500, 5), Y = sample(50:100, 5)))
+```
+
+
+```{r results = 'asis', echo = FALSE}
+knitr::kable(d, caption = "Tableau 1")
+```
+
+
+## ETC.
