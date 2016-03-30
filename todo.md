@@ -8,5 +8,6 @@
 - [ ] Mentionner GitLab, GitHub et dépôt faculté si autorisation
 - [ ] try.github.io
 - [ ] Insérer licence (Creative Commons, Paternity Share Alike)
+- [ ] Client Git emacs
 
 - [ ] Compléter les README
