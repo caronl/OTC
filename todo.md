@@ -5,7 +5,7 @@
 - [ ] Exercices partie Git
 - [ ] Mise à jour R
 - [ ] Mise à jour RStudio
-- [ ] Sondage Emacs vs. RStudio
+- [ ] La présentation repose sur une intégration avec RStudio, mais il est possible d'utiliser n'importe quel éditeur (slide gh-pages)
 - [ ] GitLab ok?
 - [ ] Simulation tp ok?
 - [ ] Copyright images
