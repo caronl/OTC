@@ -4,7 +4,7 @@
 
 ## Listes
 
-*   B
+*   Épicerie
     1.  banane
     2.  burger
         * boulette
@@ -13,9 +13,10 @@
 
 ## Code
 
-Police de texte : mean(rnorm(50))  
+Police de texte : mean(rnorm(50))
+  
 ```
-Police de code : mean(rnorm(50))
+  Police de code : mean(rnorm(50))
 ```
 
 ------
