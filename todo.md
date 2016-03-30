@@ -9,5 +9,6 @@
 - [ ] GitLab ok?
 - [ ] Simulation tp ok?
 - [ ] Copyright images
+- [ ] try.github.io
 
 - [ ] Compléter les README
