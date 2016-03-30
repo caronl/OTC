@@ -1,0 +1,11 @@
+---
+title: "Exercice 6 : outils supplémentaires"
+output:
+  html_document
+---
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/Outils_supp.Rmd" download>Outils_supp.Rmd</a>
+.
+
+Compiler le document, puis comparer le code source au résultat final.

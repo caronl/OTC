@@ -6,7 +6,7 @@ output:
 
 Dans RStudio, ouvrir le code source du document créé à l'exercice 4 et l'enregistrer sous un nouveau nom. Par exemple, **exercice_5**.
 
-Dans l'en-tête, supprimer le `:` de `html_document:`, puis supprimer les lignes suivantes :
+Dans l'en-tête, supprimer le `:` de `html_document:`, puis supprimer les lignes `toc: TRUE` à `highlight: espresso` :
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_5_1.jpg)
 
