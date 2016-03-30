@@ -103,13 +103,13 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 Version Markdown
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_cote_a_cote_RMarkdown_basic.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_cote_a_cote_Rmarkdown_basic.jpg)
 
 ## R Markdown
 
 Version R Markdown
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_cote_a_cote_RMarkdown.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_cote_a_cote_Rmarkdown.jpg)
 
 ## R Markdown
 
