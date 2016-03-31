@@ -1,0 +1,32 @@
+---
+title: "Exercice 2 : compilation d'un fichier source"
+output: html_document
+---
+
+## 
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/Exercice_2.Rmd" download>Exercice_2.Rmd</a>
+. Pour ce faire, cliquez droit sur le lien en bleu, et enregistrez le fichier dans un répertoire significatif. Par défaut, le fichier compilé sera enregistré au même endroit que le code source.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_3.JPG)
+
+Maintenant que votre code source est enregistré, lancer la compilation à l'aide de la commande **Knit HTML**.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_4.JPG)
+
+Un aperçu du document que vous avez créé est disponible dans l'onglet **Viewer**.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_5.JPG)
+
+La version compilée est également disponible à l'endroit où vous avez préalablement enregistré le code source.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_6.JPG)
+
+Pour compiler le code source à partir d'un autre éditeur que RStudio, vous pouvez écrire la commande R suivante à la ligne de commande R de votre éditeur :
+
+```{r echo = TRUE, eval = FALSE}
+rmarkdown::render("chemin/du/code/source.Rmd")
+```
+
+Compiler le document, puis comparer le code source au résultat final.
