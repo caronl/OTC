@@ -5,7 +5,7 @@ output:
 ---
 
 Télécharger le code source du document
-<a href="https://rawgit.com/LCULaval/OTC/gh-pages/Exercice_4.Rmd" download>Exercice_4.Rmd</a>
+<a href="https://rawgit.com/LCULaval/OTC/blob/gh-pages/exercices/Exercice_4.Rmd" download>Exercice_4.Rmd</a>
 .
 
 Dans l'en-tête, remplacer `html_document` par `word_document` :
