@@ -1,19 +1,17 @@
 ---
 title: "Exercice 4 : formats R Markdown"
-output:
-  html_document
+output: html_document
 ---
 
 Télécharger le code source du document
-<a href="https://rawgit.com/LCULaval/OTC/blob/gh-pages/exercices/Exercice_4.Rmd" download>Exercice_4.Rmd</a>
-.
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_4.Rmd" download>Exercice_4.Rmd</a>
+et l'enregistrer dans un dossier pertinent.
 
 Dans l'en-tête, remplacer `html_document` par `word_document` :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_html_to_word.jpg)
 
 Compiler le résultat, et comparer le document HTML au document Word.
-
 
 ************
 
