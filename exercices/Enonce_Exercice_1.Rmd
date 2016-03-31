@@ -5,9 +5,9 @@ output: html_document
 
 ## 
 
-Ouvrir RStudio.
+Ouvrir votre éditeur de code R favori.
 
-Dans l'invite de commande de R, taper les commandes suivantes :
+Dans l'invite de commande, taper les commandes suivantes :
 
 ```{r echo = TRUE, eval = FALSE}
 install.packages("rmarkdown")
