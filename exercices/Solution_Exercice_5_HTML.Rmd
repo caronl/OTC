@@ -1,8 +1,12 @@
 ---
-title: "Exercice 2"
-author: "Auteur"
-date: "March 30, 2016"
-output: html_document
+title: ''
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    number_sections: TRUE
+    theme: flatly
+    highlight: espresso
 ---
 
 ```{r setup, include=FALSE}

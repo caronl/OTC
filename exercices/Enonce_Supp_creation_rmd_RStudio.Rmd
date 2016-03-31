@@ -21,16 +21,6 @@ Maintenant que votre code source est enregistré, lancer la compilation à l'aid
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_4.JPG)
 
-Un aperçu du document que vous avez créé est disponible dans l'onglet **Viewer**.
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_5.JPG)
-
 La version compilée est également disponible à l'endroit où vous avez préalablement enregistré le code source.
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_6.JPG)
-
-Pour compiler le code source à partir d'un autre éditeur que RStudio, vous pouvez écrire la commande R suivante à la ligne de commande R de votre éditeur :
-
-```{r echo = TRUE, eval = FALSE}
-rmarkdown::render("chemin/du/code/source.Rmd")
-```

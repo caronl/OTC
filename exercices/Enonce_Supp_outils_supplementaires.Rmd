@@ -1,5 +1,5 @@
 ---
-title: "Exercice 6 : outils supplémentaires"
+title: "Exercice Supplémentaire : outils supplémentaires"
 output:
   html_document
 ---

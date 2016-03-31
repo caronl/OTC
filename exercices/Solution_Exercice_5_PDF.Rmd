@@ -1,8 +1,16 @@
 ---
-title: "Exercice 2"
+title: "Exercice 5"
 author: "Auteur"
 date: "March 30, 2016"
-output: html_document
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 1
+    number_sections: TRUE
+    highlight: espresso
+fontsize: 5pt
+geometry: margin=2in
+lang: fr
 ---
 
 ```{r setup, include=FALSE}
@@ -32,3 +40,11 @@ plot(pressure)
 ```
 
 notez que le paramètre `echo = FALSE` a été ajouté au _chunk_ pour empêcher l'affichage du code R qui a généré le graphique.
+
+# Titre
+
+Équation centrée $$\frac{2}{5}$$ sur une ligne séparée.
+
+## Sous-titre
+
+Équation $\frac{2}{5}$ au fil du texte.

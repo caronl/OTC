@@ -1,0 +1,42 @@
+---
+title: "Exercice 5 : personnalisation du format HTML"
+output: html_document
+---
+
+## 
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_5_HTML.Rmd" download>Exercice_5_HTML.Rmd</a>
+et l'enregistrer dans un dossier pertinent.
+
+Ouvrir le fichier dans votre éditeur de texte favori.
+
+Compiler le fichier.
+
+Dans l'en-tête du document, ajouter un `:` après l'option `html_document`. Le `:` indique au compilateur qu'une option de niveau inférieur suivra.
+
+Faire un retour à la ligne et une tabulation, puis ajouter l'option `toc: TRUE` sous `html_document:`.
+
+L'en-tête résultante est illustrée ci-bas. Attention! Le respect de l'indentation et des `:` est essentiel.
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_3.jpg)
+
+Compiler le document à nouveau, puis observer les changements.
+
+Ajouter l'option `toc_float: TRUE` sous `toc: TRUE` : 
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_4.jpg)
+
+Compiler le document à nouveau, puis observer les changements.
+
+Faire défiler le document pour constater l'effet de la table des matières flottante.
+
+De la même façon que la ligne précédente, ajouter la ligne `number_sections: TRUE` à l'en-tête, compiler le résultat, et observer les changements.
+
+De la même façon que la ligne précédente, ajouter la ligne `theme: flatly` à l'en-tête, compiler le résultat, et observer les changements.
+
+De la même façon que la ligne précédente, ajouter la ligne `highlight: espresso` à l'en-tête, compiler le résultat, et observer les changements.
+
+Le résultat final du code source devrait être le suivant :
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_6.jpg)

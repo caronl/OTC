@@ -1,0 +1,46 @@
+---
+title: "Exercice 5 : personnalisation du format PDF"
+output: html_document
+---
+
+## 
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_5_PDF.Rmd" download>Exercice_5_PDF.Rmd</a>
+et l'enregistrer dans un dossier pertinent.
+
+Ouvrir le fichier dans votre éditeur de texte favori.
+
+Compiler le fichier.
+
+Dans l'en-tête du document, ajouter un `:` après l'option `pdf_document`. Le `:` indique au compilateur qu'une option de niveau inférieur suivra.
+
+Faire un retour à la ligne et une tabulation, puis ajouter l'option `toc: TRUE` sous `pdf_document:`.
+
+L'en-tête résultante est illustrée ci-bas. Attention! Le respect de l'indentation et des `:` est essentiel.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_5_PDF_1.jpg)
+
+Compiler le document à nouveau, puis observer les changements.
+
+Ajouter l'option `toc_depth: 1` sous `toc: TRUE` : 
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_5_PDF_2.jpg)
+
+Compiler le document à nouveau, puis observer les changements.
+
+De la même façon que la ligne précédente, ajouter la ligne `number_sections: TRUE` à l'en-tête, compiler le résultat, et observer les changements.
+
+De la même façon que la ligne précédente, ajouter la ligne `highlight: espresso` à l'en-tête, compiler le résultat, et observer les changements.
+
+Sur une nouvelle ligne, ajouter l'option `fontsize: 5pt`. Cette ligne ne devrait pas avoir d'indentation :
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_5_PDF_3.jpg)
+
+De la même façon que la ligne précédente, ajouter la ligne `geometry: margin=2in` à l'en-tête, compiler le résultat, et observer les changements.
+
+De la même façon que la ligne précédente, ajouter la ligne `lang: fr` à l'en-tête, compiler le résultat, et observer les changements.
+
+Le résultat final du code source devrait être le suivant :
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_5_PDF_4.jpg)
