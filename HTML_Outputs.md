@@ -184,50 +184,6 @@ plot(cars)
 <br>
 <br>
 <br>
-
-
-
-
-
-
-
-
-
-
-## Analyse de l'objet R `cars` 
-
-En premier lieu, un aperçu graphique de la distance en fonction de la vitesse :
-
-
-```r
-plot(cars)
-```
-
-![](HTML_Outputs_files/figure-html/unnamed-chunk-4-1.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
 <br>
 
 
@@ -237,42 +193,59 @@ plot(cars)
 
 
 
-Voici le tableau des résultats :
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+En simulant encore une fois 10 000 mains aléatoirement, tout en forçant le premier joueur à posséder deux valets au départ, on obtient les résultats suivants pour chaque joueur :
 
 ```
-##                           J1          J2           J3           J4
-## Nombre.de.gains  4829.750000 1723.250000 1697.0830000 1749.9170000
-## Prob.de.victoire    0.482975    0.172325    0.1697083    0.1749917
+##    Nombre.de.gains Prob.de.victoire
+## J1            4830            0.483
+## J2            1723            0.172
+## J3            1697            0.170
+## J4            1750            0.175
 ```
+Tout comme au premier numéro, nous avons distribué ici les égalités également entre les joueurs impliqués dans chaque égalité. Toutefois, il peut être intéressant de se
 
-On constate que ...
 
-### Code source ayant produit cette sortie : 
-    Voici le tableau des résultats :
-    ```{r}
-      resultats
-    ```
-    
-    On constate que ...
-    
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
 # Deuxième solution
 
 Voici le tableau des résultats :
 
 Table: Tableau 2 : Gains et probs ...
 
-                             J1            J2             J3             J4
------------------  ------------  ------------  -------------  -------------
-Nombre.de.gains     4829.750000   1723.250000   1697.0830000   1749.9170000
-Prob.de.victoire       0.482975      0.172325      0.1697083      0.1749917
+      Nombre.de.gains   Prob.de.victoire
+---  ----------------  -----------------
+J1               4830              0.483
+J2               1723              0.172
+J3               1697              0.170
+J4               1750              0.175
 
 On constate que ...
-
-### Code source ayant produit ce résultat :
-
-    Voici le tableau des résultats :
-    ```{r}
-      knitr::kable(resultats, caption = "Tableau 2 : Gains et probs ...")
-    ```
-    
-    On constate que ...

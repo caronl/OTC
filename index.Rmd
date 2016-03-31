@@ -146,7 +146,8 @@ Extrait du travail pratique
 
 Solution : simplement en affichant le data.frame
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_1.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_3_panneaux_solution_TP.jpg)
+$\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdownFlow.png)
 
 ## R Markdown
 
