@@ -9,7 +9,7 @@ Télécharger le code source du document
 <a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_2.Rmd" download>Exercice_2.Rmd</a>
 en cliquant droit sur le lien précédent, et en enregistrant le fichier sous un répertoire pertinent où vous compilerez vos fichiers. Par défaut, le fichier sera compilé au même endroit que le code source, alors assurez-vous que le code source se trouve à un endroit pertinent et facile à retrouver.
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enregistrer_sous.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_1.jpg)
 
 Maintenant que votre code source est enregistré, lancer la compilation à l'aide de la commande R
 ```{r echo = TRUE, eval = FALSE}
@@ -21,7 +21,7 @@ Dans RStudio, un aperçu du document que vous avez créé devrait apparaître da
 
 Pour les utilisateurs d'un autre éditeur, la version compilée est également disponible en fichier HTML à l'endroit où vous avez préalablement enregistré le code source **Exercice_2.Rmd** :
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_fichier_compile.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_2.jpg)
 
 Ouvrir le fichier HTML produit et le comparer au code source.
 
@@ -29,4 +29,4 @@ Ouvrir le fichier HTML produit et le comparer au code source.
 
 Remarque : Dans RStudio, vous pouvez remplacer la commande `rmarkdown::render()` par une pression du bouton **Knit HTML**, tel qu'illustré :
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_4.JPG)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_3.JPG)

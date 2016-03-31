@@ -19,13 +19,13 @@ Faire un retour à la ligne et une tabulation, puis ajouter l'option `toc: TRUE`
 
 L'en-tête résultante est illustrée ci-bas. Attention! Le respect de l'indentation et des `:` est essentiel.
 
-![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_3.jpg)
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_1.jpg)
 
 Compiler le document à nouveau, puis observer les changements.
 
 Ajouter l'option `toc_float: TRUE` sous `toc: TRUE` : 
 
-![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_4.jpg)
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_2.jpg)
 
 Compiler le document à nouveau, puis observer les changements.
 
@@ -39,4 +39,4 @@ De la même façon que la ligne précédente, ajouter la ligne `highlight: espre
 
 Le résultat final du code source devrait être le suivant :
 
-![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_6.jpg)
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_3.jpg)

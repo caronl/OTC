@@ -19,13 +19,13 @@ Faire un retour à la ligne et une tabulation, puis ajouter l'option `toc: TRUE`
 
 L'en-tête résultante est illustrée ci-bas. Attention! Le respect de l'indentation et des `:` est essentiel.
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_5_PDF_1.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_1.jpg)
 
 Compiler le document à nouveau, puis observer les changements.
 
 Ajouter l'option `toc_depth: 1` sous `toc: TRUE` : 
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_5_PDF_2.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_2.jpg)
 
 Compiler le document à nouveau, puis observer les changements.
 
@@ -35,7 +35,7 @@ De la même façon que la ligne précédente, ajouter la ligne `highlight: espre
 
 Sur une nouvelle ligne, ajouter l'option `fontsize: 5pt`. Cette ligne ne devrait pas avoir d'indentation :
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_5_PDF_3.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_3.jpg)
 
 De la même façon que la ligne précédente, ajouter la ligne `geometry: margin=2in` à l'en-tête, compiler le résultat, et observer les changements.
 
@@ -43,4 +43,4 @@ De la même façon que la ligne précédente, ajouter la ligne `lang: fr` à l'e
 
 Le résultat final du code source devrait être le suivant :
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_5_PDF_4.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_4.jpg)
