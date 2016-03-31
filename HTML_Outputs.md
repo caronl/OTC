@@ -1,8 +1,3 @@
----
-output:
-  html_document:
-    keep_md: TRUE
----
 
 <br>
 <br>
@@ -115,8 +110,13 @@ if(i==0.15) cat("i equals 0.15") else cat("i does not equal 0.15")
 
 
 Code source et sortie
-```{r echo = TRUE, eval = TRUE}
+
+```r
   (i <- 5)
+```
+
+```
+## [1] 5
 ```
 
 
@@ -125,15 +125,17 @@ Code source et sortie
 --------------------
 
 Code source
-```{r echo = TRUE, eval = FALSE}
+
+```r
   (i <- 5)
 ```
 
 --------------------
 
 Sortie
-```{r echo = FALSE, eval = TRUE}
-  (i <- 5)
+
+```
+## [1] 5
 ```
 
 
@@ -196,9 +198,12 @@ plot(cars)
 
 En premier lieu, un aperçu graphique de la distance en fonction de la vitesse :
 
-```{r}
+
+```r
 plot(cars)
 ```
+
+![](HTML_Outputs_files/figure-html/unnamed-chunk-4-1.png)
 
 
 
@@ -230,21 +235,21 @@ plot(cars)
 
 # Première solution
 
-```{r echo=FALSE, eval=TRUE}
-resultats <- data.frame("Joueur" = c("J1", "J2", "J3", "J4"), "Nombre de gains" = c(4829.750, 1723.250, 1697.083, 1749.917), "Prob de victoire" = c(0.4829750, 0.1723250, 0.1697083, 0.1749917), row.names = "Joueur")
-resultats <- t(resultats)
-```
+
 
 Voici le tableau des résultats :
-```{r echo = FALSE, eval = TRUE}
-  resultats
+
+```
+##                           J1          J2           J3           J4
+## Nombre.de.gains  4829.750000 1723.250000 1697.0830000 1749.9170000
+## Prob.de.victoire    0.482975    0.172325    0.1697083    0.1749917
 ```
 
 On constate que ...
 
 ### Code source ayant produit cette sortie : 
     Voici le tableau des résultats :
-    `r ''````{r}
+    ```{r}
       resultats
     ```
     
@@ -253,16 +258,20 @@ On constate que ...
 # Deuxième solution
 
 Voici le tableau des résultats :
-```{r, echo = FALSE, eval = TRUE}
-  knitr::kable(resultats, caption = "Tableau 2 : Gains et probs ...")
-```  
+
+Table: Tableau 2 : Gains et probs ...
+
+                             J1            J2             J3             J4
+-----------------  ------------  ------------  -------------  -------------
+Nombre.de.gains     4829.750000   1723.250000   1697.0830000   1749.9170000
+Prob.de.victoire       0.482975      0.172325      0.1697083      0.1749917
 
 On constate que ...
 
 ### Code source ayant produit ce résultat :
 
     Voici le tableau des résultats :
-    `r ''````{r}
+    ```{r}
       knitr::kable(resultats, caption = "Tableau 2 : Gains et probs ...")
     ```
     
