@@ -4,16 +4,17 @@ output:
   html_document
 ---
 
-Dans RStudio, ouvrir le code source du document créé à l'exercice 4 et l'enregistrer sous un nouveau nom. Par exemple, **exercice_5**.
-
-Dans l'en-tête, supprimer le `:` de `html_document:`, puis supprimer les lignes `toc: TRUE` à `highlight: espresso` :
-
-![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_5_1.jpg)
-
-Compiler le document et vérifier que l'aperçu est le bon.
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/Exercice_4.Rmd" download>Exercice_4.Rmd</a>
+.
 
 Dans l'en-tête, remplacer `html_document` par `word_document` :
 
-![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_5_2.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_html_to_word.jpg)
 
-Compiler le résultat, et comparer le document HTML au document word produit.
+Compiler le résultat, et comparer le document HTML au document Word.
+
+
+************
+
+Pour ceux qui ont un moteur TeX installé sur leur poste de travail, remplacer `word_document` par `pdf_document`. Compiler le résultat, et comparer les documents HTML, Word et PDF.

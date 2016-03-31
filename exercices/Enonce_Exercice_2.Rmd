@@ -7,26 +7,26 @@ output: html_document
 
 Télécharger le code source du document
 <a href="https://rawgit.com/LCULaval/OTC/gh-pages/Exercice_2.Rmd" download>Exercice_2.Rmd</a>
-. Pour ce faire, cliquez droit sur le lien en bleu, et enregistrez le fichier dans un répertoire significatif. Par défaut, le fichier compilé sera enregistré au même endroit que le code source.
+en cliquant droit sur le lien précédent, et en enregistrant le fichier sous un répertoire pertinent où vous compilerez vos fichiers. Par défaut, le fichier sera compilé au même endroit que le code source, alors assurez-vous que le code source se trouve à un endroit pertinent et facile à retrouver.
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_3.JPG)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enregistrer_sous.jpg)
 
-Maintenant que votre code source est enregistré, lancer la compilation à l'aide de la commande **Knit HTML**.
+Maintenant que votre code source est enregistré, lancer la compilation à l'aide de la commande R
+```{r echo = TRUE, eval = FALSE}
+rmarkdown::render("chemin\vers\le\dossier\Exercice_2.Rmd")
+```
+en prenant soin de remplacer `chemin\vers\le\dossier\` par le véritable chemin du dossier où vous avez enregistré le fichier **Exercice_2.Rmd**.
+
+Dans RStudio, un aperçu du document que vous avez créé devrait apparaître dans une nouvelle fenêtre ou dans l'onglet **Viewer**. Comparer le code source au document HTML produit.
+
+Pour les utilisateurs d'un autre éditeur, la version compilée est également disponible en fichier HTML à l'endroit où vous avez préalablement enregistré le code source **Exercice_2.Rmd** :
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_fichier_compile.jpg)
+
+Ouvrir le fichier HTML produit et le comparer au code source.
+
+********
+
+Remarque : Dans RStudio, vous pouvez remplacer la commande `rmarkdown::render()` par une pression du bouton **Knit HTML**, tel qu'illustré :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_4.JPG)
-
-Un aperçu du document que vous avez créé est disponible dans l'onglet **Viewer**.
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_5.JPG)
-
-La version compilée est également disponible à l'endroit où vous avez préalablement enregistré le code source.
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_exercice_2_6.JPG)
-
-Pour compiler le code source à partir d'un autre éditeur que RStudio, vous pouvez écrire la commande R suivante à la ligne de commande R de votre éditeur :
-
-```{r echo = TRUE, eval = FALSE}
-rmarkdown::render("chemin/du/code/source.Rmd")
-```
-
-Compiler le document, puis comparer le code source au résultat final.
