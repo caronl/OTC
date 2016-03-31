@@ -1,0 +1,44 @@
+---
+title: "Exercice Supplémentaire : personnalisation du format HTML"
+output: html_document
+---
+
+## 
+
+Dans RStudio, ouvrir le code source du document créé à l'exercice 2 et l'enregistrer sous un nouveau nom. Par exemple, **exercice_4** :
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_1.jpg)
+
+Compiler le document à l'aide du bouton **Knit HTML**, et observer le résultat dans l'onglet **Viewer**.
+
+Au-dessus du titre de sous-section `## R Markdown`, ajouter le titre de section `# Exercice 4`, entouré par 2 lignes vides :
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_2.jpg)
+
+Compiler le document à nouveau, puis observer les changements.
+
+Dans l'en-tête du document, ajouter l'option `toc: TRUE` sous `html_document:`, puis réorganiser l'indentation comme illustré ci-bas. Attention! Les lignes `output:` et `html_document:` doivent se terminer par un `:` pour indiquer qu'une option de niveau inférieur les suit :
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_3.jpg)
+
+Compiler le document à nouveau, puis observer les changements.
+
+Ajouter l'option `toc_float: TRUE` sous `toc: TRUE` : 
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_4.jpg)
+
+Compiler le document à nouveau, puis observer les changements. La visionneuse de RStudio ne pouvant pas afficher fidèlement toutes les caractéristiques du document HTML produit, utiliser le bouton **Show in new window** pour visionner le document dans votre navigateur.
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_5.jpg)
+
+Faire défiler le document pour constater l'effet de la table des matières flottante.
+
+De la même façon que la ligne précédente, ajouter la ligne `number_sections: TRUE` à l'en-tête, compiler le résultat, et observer les changements.
+
+De la même façon que la ligne précédente, ajouter la ligne `theme: flatly` à l'en-tête, compiler le résultat, et observer les changements.
+
+De la même façon que la ligne précédente, ajouter la ligne `highlight: espresso` à l'en-tête, compiler le résultat, et observer les changements.
+
+Le résultat final du code source devrait être le suivant :
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_exercice_4_6.jpg)

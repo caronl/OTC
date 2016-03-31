@@ -1,14 +1,15 @@
 ---
-title: ''
-output:
-  word_document
+title: "Exercice 2"
+author: "Auteur"
+date: "March 30, 2016"
+output: word_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Exercice 4
+# Fonctionnalités
 
 ## R Markdown
 
