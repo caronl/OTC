@@ -274,7 +274,7 @@ Version HTML (pour les autres)
     
 ## Documentation Git
 
-[LCULaval.github.io](http://lculaval.github.io)
+[try.github.io](try.github.io)
 
 [LCULaval.github.io](http://lculaval.github.io)
 
