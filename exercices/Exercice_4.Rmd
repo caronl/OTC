@@ -2,7 +2,7 @@
 title: "Exercice 4"
 author: "Auteur"
 date: "March 30, 2016"
-output: html_document:
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
