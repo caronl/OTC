@@ -1,7 +1,7 @@
 ---
 title: "Outils de travail collaboratif"
 author: "Laurent Caron"
-date: "March 23, 2016"
+date: "7 avril 2016"
 output:
   ioslides_presentation:
     transition: faster
@@ -21,34 +21,41 @@ il serait peut-être intéressant pour vous de commencer à utiliser RMarkdown.�
 « Un autre outil très intéressant lorsque vous travaillerez sur vos projets en équipe serait l'adoption du programme Git (Lab ou Hub) qui consiste en quelque sorte en un Dropbox versionné (...).»
 
 
-$\quad$ - Samuel Cabral Cruz - 
+$\quad$ - Samuel Cabral Cruz
 
-$\quad$ ancien étudiant de l'École d'actuariat de l'Université Laval
+$\quad$ Analyste en actuariat chez DGAG, gradué en 2015
 
 ## Plan de match
 
 ### Markdown
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_Markdown_logo.png)
 
+<br>
+
 ### R Markdown
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdownReference.png)
 
+<br>
+
 ### Git
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_Git_logo.png)
+
+<br>
 
 # Markdown
 
 ## Markdown
 
 Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
+
+Créé par John Gruber en 2004
   
   * wikitexte
       * Wikipedia
   
   * Markdown
-      * GitHub
       * Stack Exchange
       * Stack Overflow
       
@@ -58,67 +65,64 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_source_Markdown.jpg)
     
-## Qui utilise Markdown?
-
-### GitHub
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub.jpg)
-
-## Qui utilise Markdown?
-
-### GitHub
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RStudio_README_GitHub_source.jpg)
-
-## Qui utilise Markdown?
-
-### Stack Exchange
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange.jpg)
-
-## Qui utilise Markdown?
-
-### Stack Exchange
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange_source.jpg)
-
-## Qui utilise Markdown?
+## Exemples d'utilisation de Markdown
 
 ### Stack Overflow
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow.jpg)
 
-## Qui utilise Markdown?
+## Exemples d'utilisation de Markdown
 
 ### Stack Overflow
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow_source.jpg)
 
+## Exemples d'utilisations de Markdown
+
+### Stack Exchange
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange.jpg)
+
+## Exemples d'utilisation de Markdown
+
+### Stack Exchange
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange_source.jpg)
+
 ## Markdown
 
-Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
+Langage de balisage léger : 
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_source_Markdown.jpg)
-
+- On se concentre sur la structure
+- Outils simples pour
+    - Code
+    - Équations
+    - Liens
+    - Images
+    - Listes
+        
 # R Markdown
 
 ## R Markdown
 
-Version Markdown
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_cote_a_cote_Rmarkdown_basic.jpg)
+Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) ?
 
-## R Markdown
+→ Programmation lettrée
 
-Version R Markdown
+## Étapes de compilation
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_cote_a_cote_Rmarkdown.jpg)
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_3_panneaux_Rmarkdown_flowchart.jpg)
 
-## R Markdown
+## Avantages
 
-Idée derrière R Markdown :
+- Courte période d'apprentissage
 
-- Insertion de _chunks_ de code R
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_chunk_R.jpg)
+- Recherche reproductible
 
-- Raccourci clavier dans RStudio : Ctrl + Alt + I
+- Automatisation
+
+- Conversion simple en plusieurs formats
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
 
 ## Exercice 1
 
@@ -131,28 +135,6 @@ Les exercices et tout le contenu de la présentation se trouvent sur
 Les exercices et tout le contenu de la présentation se trouvent sur
 
 [LCULaval.github.io](http://lculaval.github.io)
-
-## R Markdown
-
-### Avantages
-
-- Courte période d'apprentissage
-
-- Recherche reproductible
-
-- Automatisation
-
-- Adaptation rapide en plusieurs formats
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
-
-## R Markdown
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
-
-Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) ?
-
-→ Programmation lettrée
 
 ## R Markdown
 
