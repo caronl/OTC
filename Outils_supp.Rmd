@@ -49,6 +49,3 @@ Contenu de l'onglet 2
 ```{r results = 'asis', echo = FALSE}
 knitr::kable(d, caption = "Tableau 1")
 ```
-
-
-## ETC.

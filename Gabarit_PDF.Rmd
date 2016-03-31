@@ -1,0 +1,76 @@
+---
+title: "Gabarit PDF"
+author: "Laurent Caron"
+date: "March 31, 2016"
+output:
+  pdf_document:
+    fig_caption: yes
+    highlight: pygments
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
+fontsize: 12pt
+geometry: margin=1in
+lang: fr
+---
+
+# R Markdown
+
+## Description
+
+Ceci est un document R Markdown. Markdown est un langage de balisage léger permettant de créer des documents dans les formats HTML, PDF et MS Word entre autres. Pour plus de détails, consulter <http://rmarkdown.rstudio.com>.
+
+## _Chunks_ de code R
+
+Vous pouvez inclure des _chunks_ de code R :
+
+```{r cars}
+summary(cars)
+```
+
+## Tableaux
+
+Vous pouvez aficher un data.frame directement :
+
+```{r, echo = FALSE}
+faithful[1:10,]
+```
+
+Notez que le paramètre `echo = FALSE` a été ajouté au _chunk_ pour empêcher l'affichage du code R qui a généré le data.frame.
+
+Ou faire appel au package **knitr** :
+
+```{r, echo = FALSE}
+knitr::kable(faithful[1:10,], caption = "Tableau de eruptions et waiting")
+```
+
+
+## Équations
+
+Équations au fil du texte : $2i / 10i = \frac{1}{5}$
+
+Équations sur une nouvelle ligne : $$2i / 10i = \frac{1}{5}$$
+
+## Interaction avec R
+
+Code au fil du texte : `r 2 + 3`
+
+Code dans une boîte : 
+```{r}
+2 + 3
+```
+
+
+## Graphiques
+
+Vous pouvez également inclure des graphiques :
+
+```{r, echo=FALSE}
+plot(pressure)
+```
+
+Avec un titre (recquiert l'option `fig_caption: yes`) :
+
+```{r, echo=FALSE, fig.cap="Graphique de la pression"}
+plot(pressure)
+```

@@ -225,6 +225,10 @@ Sorties R au fil du texte
 
 ## Exercices supplémentaires
 
+Version PDF (pour ceux qui ont installé TeX)
+
+Version HTML (pour les autres)
+
 [LCULaval.github.io](http://lculaval.github.io)
 
 ## Documentation R Markdown
