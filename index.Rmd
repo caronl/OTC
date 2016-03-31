@@ -9,6 +9,9 @@ output:
 subtitle: "Atelier interactif"
 ---
 
+
+
+
 # Mise en contexte
 
 ## Mise en contexte
@@ -44,20 +47,29 @@ $\quad$ Analyste en actuariat chez DGAG, gradué en 2015
 
 <br>
 
+
+
+
+
 # Markdown
+
+## Markdown
+
+Créé par John Gruber en 2004
+
+Dernière mise à jour en 2004
 
 ## Markdown
 
 Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
 
-Créé par John Gruber en 2004
-  
   * wikitexte
       * Wikipedia
   
   * Markdown
       * Stack Exchange
       * Stack Overflow
+      * Blogs
       
 ## Markdown
 
@@ -76,7 +88,7 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow_source.jpg)
 
-## Exemples d'utilisations de Markdown
+## Exemples d'utilisation de Markdown
 
 ### Stack Exchange
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange.jpg)
@@ -97,6 +109,18 @@ Langage de balisage léger :
     - Liens
     - Images
     - Listes
+    
+## Documentation Markdown
+
+[_Cheatsheet_ de la syntaxe](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[Site du créateur](https://daringfireball.net/projects/markdown/)
+
+
+
+
+
+
         
 # R Markdown
 
@@ -124,15 +148,11 @@ Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) 
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
 
-## Exercice 1
-
-Les exercices et tout le contenu de la présentation se trouvent sur
+## Exercice 1 : Installation de R Markdown
 
 [LCULaval.github.io](http://lculaval.github.io)
 
-## Exercice 2
-
-Les exercices et tout le contenu de la présentation se trouvent sur
+## Exercice 2 : Compilation d'un fichier source
 
 [LCULaval.github.io](http://lculaval.github.io)
 
@@ -149,50 +169,49 @@ Solution : simplement en affichant le data.frame
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_3_panneaux_solution_TP.jpg)
 $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdownFlow.png)
 
-## R Markdown
-
-Options d'affichage du code R :
+## Options d'affichage du code R
 
 **echo** : affiche le code source si **TRUE** (par défaut)
 
 **eval** : affiche la sortie si **TRUE** (par défaut)
 
-## R Markdown
-
-Options d'affichage du code R :
+## Options d'affichage du code R
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_options_affichage.jpg)
 
-## Exercice 3
-
-Les exercices et tout le contenu de la présentation se trouvent sur
+## Exercice 3 : Options d'affichage du code R
 
 [LCULaval.github.io](http://lculaval.github.io)
 
-
-## R Markdown
-
-(image Montrer exemple en-tête "complet" incluant indentation, ":", etc.)
-
-## Exercice 4
-
-Les exercices et tout le contenu de la présentation se trouvent sur
-
-[LCULaval.github.io](http://lculaval.github.io)
-
-## R Markdown
+## Formats R Markdown
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
 
-Énumérer les formats possibles
+- PDF (recquiert LaTeX)
+- HTML
+- Diapositives (HTML ou PDF)
+- Word
 
-## Exercice 5
-
-Les exercices et tout le contenu de la présentation se trouvent sur
+## Exercice 4 : Formats R Markdown
 
 [LCULaval.github.io](http://lculaval.github.io)
 
-## R Markdown
+## Personnalisation du format
+
+- Tout passe par l'en-tête
+- La syntaxe est importante → respecter indentations et "`:`"
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_HTML_3.jpg)
+
+## Exercice 5 : Personnalisation du format
+
+Version PDF (pour ceux qui ont installé TeX)
+
+Version HTML (pour les autres)
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+## Outils supplémentaires
 
 Équations
 
@@ -204,17 +223,20 @@ Sorties R au fil du texte
 - `Je vois` `` r 2 + 3` ` ` pommes`
 - Je vois `r 2 + 3` pommes
 
-## R Markdown
-
-Fonctions knitr
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_solution_2.jpg)
-
-## Exercice 6
-
-Les exercices et tout le contenu de la présentation se trouvent sur
+## Exercices supplémentaires
 
 [LCULaval.github.io](http://lculaval.github.io)
+
+## Documentation R Markdown
+
+[_Cheatsheet_ R Markdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+[Guide de référence R Markdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+[Guide knitr](http://kbroman.org/knitr_knutshell/)
+
+[Options PDF de R Markdown](http://rmarkdown.rstudio.com/pdf_document_format.html)
+
 
 
 
@@ -246,4 +268,14 @@ Les exercices et tout le contenu de la présentation se trouvent sur
 ### GitHub
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg)
     
-## Citations
+## Documentation Git
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+[LCULaval.github.io](http://lculaval.github.io)
