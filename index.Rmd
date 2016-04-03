@@ -207,6 +207,8 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 Version PDF (pour ceux qui ont installé TeX)
 
+- [Tutoriel d'installation de TeXLive](https://www.youtube.com/watch?v=z_dq3dns-WU)
+
 Version HTML (pour les autres)
 
 [LCULaval.github.io](http://lculaval.github.io)
