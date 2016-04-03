@@ -1,11 +1,11 @@
 ---
 title: "Documentation"
-author: "Laurent Caron"
-date: "April 3, 2016"
 output: html_document
 ---
 
 De la documentation est disponible au fil de la formation, que ce soit à l'intérieur de la présentation ou à l'intérieur des exercices. Vous trouverez dans cette page un lien vers chacune de ces sources.
+
+******************************
 
 ## Présentation
 
