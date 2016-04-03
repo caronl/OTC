@@ -31,6 +31,8 @@ De la documentation est disponible au fil de la formation, que ce soit √† l'int√
 
 ### Git
 
+- [Git et RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+
 - [try.github.io](http://try.github.io)
 
 - [Principes des logiciels de gestion de versions](http://betterexplained.com/articles/a-visual-guide-to-version-control/)

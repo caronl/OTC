@@ -266,29 +266,108 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 # Git
 
+## Avez-vous déjà...
+
+- Modifié un fichier, réalisé que c'était une erreur, et tenté de revenir en arrière? 3 minutes plus tard? 3 jours plus tard?
+
+- Perdu un fichier ou détenu une sauvegarde trop vieille?
+
+- Gardé plusieurs versions d'un même fichier à la fois?
+
+- Voulu vérifier la différence entre deux versions ou plus de votre fichier?
+
+- Voulu revoir l'historique de votre fichier?
+
+- Voulu travailler en équipe sur un projet impliquant du code?
+
+- Voulu tester un ajout sans interférer avec la version actuelle d'un fichier?
+
 ## Git
 
-- Logiciel de gestion de versions décentralisé
-- Logiciel libre (_open source_)
-- Commande à la ligne
-    * ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_ligne_commande_git.jpg)
+Créé en 2005 par Linus Torvalds
 
+Logiciel
+
+- de gestion de versions
+
+- décentralisé
+
+- libre (_open source_)
+
+## Logiciel de gestion de versions ...
+
+Dépôt :
+
+- Sauvegarde des versions
+
+- Restauration et historique des versions
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_basic_checkin.png)
+
+- Principe : Google Docs, Google Sheets
+
+## Logiciel de gestion de versions ...
+
+- Différences entre les versions
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_basic_diffs.png)
+
+## Logiciel de gestion de versions ...
+
+- Tester des modifications en parallèle
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_first_branch.png)
+
+## Logiciel de gestion de versions ...
+
+- Appliquer les modifications, et les associer à un collaborateur
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_merging.png)
+
+## ... décentralisé ...
+
+- Chaque collaborateur détient une copie du serveur
+- Permet de travailler avant d'obtenir les permissions
+- Permet de travailler hors ligne
+
+## ... libre
+
+- Gratuit
+- En croissance
+- Collaboration
 
 ## Utilisateurs du système Git
 
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_projets_utilisant_Git.jpg)
 
+## Git
+
+- Commande à la ligne
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_ligne_commande_git.jpg)
 
 ## GitHub
 
-- GitHub.com : hébergement et gestion du développement de logiciels
-- GitHub Desktop : logiciel pour gérer les dépôts
-- pour projets opensource
-- RStudio, RMarkdown, etc.
+- GitHub.com
+    - Hébergement
+    - Interface Web pour gérer le dépôt
+- Principalement projets _open source_
+    - RStudio
+    - RMarkdown
+    - Cette présentation
 
 ## GitLab
 
+- GitLab.com
+    - Hébergement
+    - Interface Web pour gérer le dépôt
+ 
 - plus commercial
 - entreprises utilisant GitLab : Samsung, IBM, etc.
+
+## Git + RStudio
+
+...
 
 ## Markdown + GitHub
 
@@ -297,9 +376,13 @@ Comment récupérer le code R contenu dans un document R Markdown?
     
 ## Documentation Git
 
+[Git et RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+
 [try.github.io](http://try.github.io)
 
-[Principes des logiciels de gestion de versions](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
+[Principes des logiciels de gestion de versions](http://betterexplained.com/articles/a-visual-guide-to-version-control/)  
+* Les images des diapositives **Logiciel de gestion de versions...** proviennent de cette page
+
 
 [Git pour les nuls](http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/)
 
