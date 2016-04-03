@@ -223,7 +223,7 @@ Sorties R au fil du texte
 - `Je vois` `` r 2 + 3` ` ` pommes`
 - Je vois `r 2 + 3` pommes
 
-## Exercices supplémentaires
+## Exercice supplémentaire : Outils Supplémentaires
 
 Version PDF (pour ceux qui ont installé TeX)
 
@@ -231,7 +231,25 @@ Version HTML (pour les autres)
 
 [LCULaval.github.io](http://lculaval.github.io)
 
+## Outils supplémentaires
+
+Comment récupérer le code R contenu dans un document R Markdown?
+
+- Fonction `purl()` du package **knitr**
+
+- Tout reste contenu dans le document .Rmd et peut être généré à partir de celui-ci
+
+    - `render("Fichier.Rmd")` $\quad$ → $\quad$ PDF, Word, HTML
+    
+    - `purl("Fichier.Rmd")` $\qquad$ → $\quad$ .R
+
+## Exercice supplémentaire : Extraction du code R contenu dans un document R Markdown
+
+[LCULaval.github.io](http://lculaval.github.io)
+
 ## Documentation R Markdown
+
+[Page d'accueil du projet R Markdown](http://rmarkdown.rstudio.com/index.html)
 
 [_Cheatsheet_ R Markdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
 
@@ -241,6 +259,7 @@ Version HTML (pour les autres)
 
 [Options PDF de R Markdown](http://rmarkdown.rstudio.com/pdf_document_format.html)
 
+[Options knitr](http://yihui.name/knitr/options/)
 
 
 
@@ -253,6 +272,10 @@ Version HTML (pour les autres)
 - Logiciel libre (_open source_)
 - Commande à la ligne
     * ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_ligne_commande_git.jpg)
+
+
+## Utilisateurs du système Git
+
 
 
 ## GitHub
@@ -276,10 +299,10 @@ Version HTML (pour les autres)
 
 [try.github.io](http://try.github.io)
 
-[LCULaval.github.io](http://lculaval.github.io)
+[Principes des logiciels de gestion de versions](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
 
-[LCULaval.github.io](http://lculaval.github.io)
+[Git pour les nuls](http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/)
 
-[LCULaval.github.io](http://lculaval.github.io)
+[Comment utiliser les _patch_](https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
 
-[LCULaval.github.io](http://lculaval.github.io)
+[_patch Workflow_](http://rypress.com/tutorials/git/patch-workflows)
