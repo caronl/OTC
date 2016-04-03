@@ -40,3 +40,5 @@ De la même façon que la ligne précédente, ajouter la ligne `highlight: espre
 Le résultat final du code source devrait être le suivant :
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_3.jpg)
+
+Pour un guide plus complet des fonctionnalités HTML, consulter la page à ce sujet sur le site de R Markdown : [Options du format HTML en R Markdown](http://rmarkdown.rstudio.com/html_document_format.html)

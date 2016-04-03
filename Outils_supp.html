@@ -115,9 +115,37 @@ $(document).ready(function () {
 <hr />
 <div id="equations" class="section level2">
 <h2>Équations</h2>
-<p>Équations au fil du texte : <span class="math inline">\(2i / 10i = \frac{1}{5}\)</span></p>
-<p>Équations sur une nouvelle ligne : <span class="math display">\[2i / 10i = \frac{1}{5}\]</span></p>
+<div id="types-dequations" class="section level3">
+<h3>Types d’équations</h3>
+<p>Équation au fil du texte : <span class="math inline">\(2i / 10i = \frac{1}{5}\)</span></p>
+<p>Équation sur une nouvelle ligne : <span class="math display">\[2i / 10i = \frac{1}{5}\]</span></p>
+<p>Équation au fil du texte : <span class="math inline">\(S = \sum_{i=1}^n X_i\)</span></p>
+<p>Équation sur une nouvelle ligne : <span class="math display">\[S = \sum_{i=1}^n X_i\]</span></p>
+</div>
+<div id="indices" class="section level3">
+<h3>Indices</h3>
+<p><span class="math inline">\(X_i\)</span></p>
+<p><span class="math inline">\(X_i,j\)</span></p>
+<p><span class="math inline">\(X_{i}\)</span></p>
+<p><span class="math inline">\(X_{i,j}\)</span></p>
+</div>
+<div id="exposants" class="section level3">
+<h3>Exposants</h3>
+<p><span class="math inline">\(X^2\)</span></p>
+<p><span class="math inline">\({X^2}^3\)</span></p>
+</div>
+<div id="caracteres-speciaux" class="section level3">
+<h3>Caractères spéciaux</h3>
+<p><span class="math display">\[\log{(x)}\]</span> <span class="math display">\[\sqrt{x}\]</span> <span class="math display">\[\overline{x}\]</span> <span class="math display">\[\hat{x}\]</span> <span class="math display">\[\binom{x}{n}\]</span> <span class="math display">\[\partial{x}\]</span> <span class="math display">\[\alpha\]</span> <span class="math display">\[\beta\]</span> <span class="math display">\[\gamma\]</span> <span class="math display">\[\delta\]</span> <span class="math display">\[x \in S\]</span> <span class="math display">\[A \cup B\]</span> <span class="math display">\[\mu \pm 1.96 \sigma\]</span></p>
+<p>La syntaxe des équations en R Markdown suit celle empruntée par le langage LaTeX. Ainsi, pour plus de détails, vous pouvez consulter les nombreuses rubriques d’aide sur le sujet :</p>
+<ul>
+<li><p><a href="http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html">Liste des principaux symboles mathématiques en LaTeX</a></p></li>
+<li><p><a href="http://ctan.math.ca/tex-archive/info/formation-latex-ul/formation_latex_UL-partie_1.pdf">Première partie de la formation LaTeX présentée par Vincent Goulet pour la Bibliothèque de l’Université Laval</a></p></li>
+<li><p><a href="http://ctan.mirror.rafal.ca/info/formation-latex-ul/formation_latex_UL-partie_2.pdf">Deuxième partie de la formation LaTeX présentée par Vincent Goulet pour la Bibliothèque de l’Université Laval</a></p></li>
+<li><p><a href="http://mirror.its.dal.ca/ctan/info/symbols/comprehensive/symbols-letter.pdf">La liste complète des symboles LaTeX</a></p></li>
+</ul>
 <hr />
+</div>
 </div>
 <div id="interaction-avec-r" class="section level2">
 <h2>Interaction avec R</h2>
@@ -143,11 +171,11 @@ $(document).ready(function () {
 <div id="tableaux" class="section level2">
 <h2>Tableaux</h2>
 <pre><code>##     X  Y
-## 1 477 86
-## 2 321 71
-## 3 396 59
-## 4 395 81
-## 5 308 77</code></pre>
+## 1 417 83
+## 2 396 74
+## 3 252 50
+## 4 439 63
+## 5 381 51</code></pre>
 <table>
 <caption>Tableau 1</caption>
 <thead>
@@ -158,30 +186,27 @@ $(document).ready(function () {
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right">477</td>
-<td align="right">86</td>
+<td align="right">417</td>
+<td align="right">83</td>
 </tr>
 <tr class="even">
-<td align="right">321</td>
-<td align="right">71</td>
-</tr>
-<tr class="odd">
 <td align="right">396</td>
-<td align="right">59</td>
-</tr>
-<tr class="even">
-<td align="right">395</td>
-<td align="right">81</td>
+<td align="right">74</td>
 </tr>
 <tr class="odd">
-<td align="right">308</td>
-<td align="right">77</td>
+<td align="right">252</td>
+<td align="right">50</td>
+</tr>
+<tr class="even">
+<td align="right">439</td>
+<td align="right">63</td>
+</tr>
+<tr class="odd">
+<td align="right">381</td>
+<td align="right">51</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div id="etc." class="section level2">
-<h2>ETC.</h2>
 </div>
 
 

@@ -11,6 +11,8 @@ output:
 fontsize: 5pt
 geometry: margin=2in
 lang: fr
+documentclass: book
+urlcolor: blue
 ---
 
 ```{r setup, include=FALSE}

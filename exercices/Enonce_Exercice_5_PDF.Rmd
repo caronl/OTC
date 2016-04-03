@@ -43,6 +43,10 @@ De la même façon que la ligne précédente, ajouter la ligne `lang: fr` à l'e
 
 Vous êtes tellement satisfaits de votre travail que vous désirez le publier sous forme de livre? De la même façon que la ligne précédente, ajouter la ligne `documentclass: book` à l'en-tête, compiler le résultat, et observer les changements.
 
+Vous voulez que les liens de type URL soient plus évidents? De la même façon que la ligne précédente, ajouter la ligne `urlcolor: blue` à l'en-tête, compiler le résultat, et observer les changements.
+
 Le résultat final du code source devrait être le suivant :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_4.jpg)
+
+Pour un guide plus complet des fonctionnalités PDF, consulter la page à ce sujet sur le site de R Markdown : [Options du format PDF en R Markdown](http://rmarkdown.rstudio.com/pdf_document_format.html)
