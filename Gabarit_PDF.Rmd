@@ -12,6 +12,7 @@ output:
 fontsize: 12pt
 geometry: margin=1in
 lang: fr
+documentclass: book
 ---
 
 # R Markdown
@@ -69,7 +70,7 @@ Vous pouvez également inclure des graphiques :
 plot(pressure)
 ```
 
-Avec un titre (recquiert l'option `fig_caption: yes`) :
+Avec un titre (recquiert l'option `fig_caption: yes` dans l'en-tête) :
 
 ```{r, echo=FALSE, fig.cap="Graphique de la pression"}
 plot(pressure)

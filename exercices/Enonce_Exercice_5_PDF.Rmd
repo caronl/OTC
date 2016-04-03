@@ -41,6 +41,8 @@ De la même façon que la ligne précédente, ajouter la ligne `geometry: margin
 
 De la même façon que la ligne précédente, ajouter la ligne `lang: fr` à l'en-tête, compiler le résultat, et observer les changements.
 
+Vous êtes tellement satisfaits de votre travail que vous désirez le publier sous forme de livre? De la même façon que la ligne précédente, ajouter la ligne `documentclass: book` à l'en-tête, compiler le résultat, et observer les changements.
+
 Le résultat final du code source devrait être le suivant :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_4.jpg)
