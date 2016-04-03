@@ -306,3 +306,7 @@ Comment récupérer le code R contenu dans un document R Markdown?
 [Comment utiliser les _patch_](https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
 
 [_patch Workflow_](http://rypress.com/tutorials/git/patch-workflows)
+
+[Guides GitHub](https://guides.github.com/)
+
+[Pro Git Book](https://git-scm.com/book/fr/v2)
