@@ -128,9 +128,23 @@ Langage de balisage léger :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
 
-Qu'arrive-t-il quand on change le code (ordre, structure, données, résultats) ?
+<br>
 
-→ Programmation lettrée
+Résultat quand on change le code (ordre, structure), les données, les graphiques, les tableaux?
+
+## R Markdown
+
+Programmation lettrée
+
+- Donald Knuth (TeX, The Art of Computer Programming)
+
+- Alternance :
+
+    - Mots
+    - Code
+    - Mots
+    - Code
+    - etc.
 
 ## Étapes de compilation
 
@@ -288,6 +302,7 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 
 
+
 # Git
 
 ## Avez-vous déjà...
@@ -305,6 +320,10 @@ Comment récupérer le code R contenu dans un document R Markdown?
 - Voulu travailler en équipe sur un projet impliquant du code?
 
 - Voulu tester un ajout sans interférer avec la version actuelle d'un fichier?
+
+## Moi oui
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
 
 ## Git
 
@@ -375,29 +394,34 @@ Dépôt :
 - GitHub.com
     - Hébergement
     - Interface Web pour gérer le dépôt
-- Principalement projets _open source_
-    - RStudio
-    - RMarkdown
+
+- Projets _open source_
     - Cette présentation
+
+- Entreprises
+    - Google
+    - Facebook
+    - Microsoft
+    - Netflix
 
 ## GitLab
 
 - GitLab.com
-    - Hébergement
+    - Hébergement **optionnel**
     - Interface Web pour gérer le dépôt
- 
-- plus commercial
-- entreprises utilisant GitLab : Samsung, IBM, etc.
+    
+- Projets _open source_
+
+- Entreprises
+    - IBM
+    - Expedia
+    - NASA
+    - Bell
 
 ## Git + RStudio
 
-...
+Interaction avec un dépôt Git intégrée à RStudio
 
-## Markdown + GitHub
-
-### GitHub
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_GitHub_Guides_Markdown.jpg)
-    
 ## Documentation Git
 
 [Git et RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)

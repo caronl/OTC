@@ -4,9 +4,8 @@
 - [ ] Slides partie Git
 - [X] Demander de mettre à jour R, RStudio et installer Git
 - [X] La présentation repose sur une intégration avec RStudio, mais il est possible d'utiliser n'importe quel éditeur (slide gh-pages)
-- [ ] Mentionner GitLab, GitHub et dépôt faculté si autorisation
+- [X] Mentionner GitLab, GitHub et dépôt faculté si autorisation
 - [X] try.github.io
 - [ ] Insérer licence (Creative Commons, Paternity Share Alike)
-- [ ] Client Git emacs
 
 - [ ] Compléter les README
