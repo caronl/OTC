@@ -8,7 +8,7 @@ L'atelier consite en une présentation entrecoupée d'exemples et d'exercices. L
 
 ## 7 avril 2016
 
-La version du projet 7 avril 2016 est celle présentée lors de l'atelier du jeudi 7 avril 2016 à l'Université Laval à Québec.
+La version du projet au 7 avril 2016 est celle présentée lors de l'atelier du jeudi 7 avril 2016 à l'Université Laval à Québec.
 
 Présentateurs : Laurent Caron et Vincent Goulet
 
