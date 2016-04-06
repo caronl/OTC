@@ -1,8 +1,16 @@
-# OTC
-Outils de travail collaboratif
+# Outils de travail collaboratif
 
-## Atelier du jeudi 7 avril 2016
+Présentation faite sous forme d'atelier optionnel dans le cadre du cours ACT-2002 : Méthodes numériques en actuariat.
 
-Université Laval
+L'atelier consite en une présentation entrecoupée d'exemples et d'exercices. Les sujets traités sont R Markdown et le système Git.
 
-Québec
+***********************
+
+## 7 avril 2016
+
+La version du projet 7 avril 2016 est celle présentée lors de l'atelier du jeudi 7 avril 2016 à l'Université Laval à Québec.
+
+Présentateurs : Laurent Caron et Vincent Goulet
+
+***********************
+

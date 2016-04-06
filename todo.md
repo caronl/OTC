@@ -1,11 +1,11 @@
-- [ ] Vérifier avec ordinateurs tests (Vincent, Audrey, Rémi, JN, LP)
+- [X] Vérifier avec ordinateurs tests (Vincent, Audrey, Rémi, JN, LP)
 - [X] Coordonner formation LaTeX et atelier
 - [X] Terminer slides partie R Markdown
-- [ ] Slides partie Git
+- [X] Slides partie Git
 - [X] Demander de mettre à jour R, RStudio et installer Git
 - [X] La présentation repose sur une intégration avec RStudio, mais il est possible d'utiliser n'importe quel éditeur (slide gh-pages)
 - [X] Mentionner GitLab, GitHub et dépôt faculté si autorisation
 - [X] try.github.io
-- [ ] Insérer licence (Creative Commons, Paternity Share Alike)
+- [X] Insérer licence (Creative Commons, Paternity Share Alike)
 
 - [ ] Compléter les README
