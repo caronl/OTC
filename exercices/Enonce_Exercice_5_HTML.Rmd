@@ -21,7 +21,9 @@ L'en-tête résultante est illustrée ci-bas. Attention! Le respect de l'indenta
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_1.jpg)
 
-Compiler le document à nouveau, puis observer les changements.
+Compiler le document à nouveau, puis observer les changements (indice : table des matières).
+
+**Fermer le document HTML, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
 
 Ajouter l'option `toc_float: TRUE` sous `toc: TRUE` : 
 
@@ -29,13 +31,21 @@ Ajouter l'option `toc_float: TRUE` sous `toc: TRUE` :
 
 Compiler le document à nouveau, puis observer les changements.
 
+**À nouveau, après avoir consulté les modifications, fermer le document HTML, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
+
 Faire défiler le document pour constater l'effet de la table des matières flottante.
 
 De la même façon que la ligne précédente, ajouter la ligne `number_sections: TRUE` à l'en-tête, compiler le résultat, et observer les changements.
 
+Fermer le document HTML.
+
 De la même façon que la ligne précédente, ajouter la ligne `theme: flatly` à l'en-tête, compiler le résultat, et observer les changements.
 
+Fermer le document HTML.
+
 De la même façon que la ligne précédente, ajouter la ligne `highlight: espresso` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document HTML.
 
 Le résultat final du code source devrait être le suivant :
 

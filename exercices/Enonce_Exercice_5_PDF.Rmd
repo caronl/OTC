@@ -11,7 +11,7 @@ et l'enregistrer dans un dossier pertinent.
 
 Ouvrir le fichier dans votre éditeur de texte favori.
 
-Compiler le fichier.
+Compiler le fichier et ouvrir le document compilé.
 
 Dans l'en-tête du document, ajouter un `:` après l'option `pdf_document`. Le `:` indique au compilateur qu'une option de niveau inférieur suivra.
 
@@ -23,25 +23,43 @@ L'en-tête résultante est illustrée ci-bas. Attention! Le respect de l'indenta
 
 Compiler le document à nouveau, puis observer les changements.
 
+**Fermer le document PDF, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
+
 Ajouter l'option `toc_depth: 1` sous `toc: TRUE` : 
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_2.jpg)
 
-Compiler le document à nouveau, puis observer les changements.
+Compiler le document à nouveau, puis observer les changements (indice : table des matières).
+
+**À nouveau, après avoir consulté les modifications, fermer le document PDF, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
 
 De la même façon que la ligne précédente, ajouter la ligne `number_sections: TRUE` à l'en-tête, compiler le résultat, et observer les changements.
 
+Fermer le document PDF.
+
 De la même façon que la ligne précédente, ajouter la ligne `highlight: espresso` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
 
 Sur une nouvelle ligne, ajouter l'option `fontsize: 5pt`. Cette ligne ne devrait pas avoir d'indentation :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_3.jpg)
 
+Compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
+
 De la même façon que la ligne précédente, ajouter la ligne `geometry: margin=2in` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
 
 De la même façon que la ligne précédente, ajouter la ligne `lang: fr` à l'en-tête, compiler le résultat, et observer les changements.
 
+Fermer le document PDF.
+
 Vous êtes tellement satisfaits de votre travail que vous désirez le publier sous forme de livre? De la même façon que la ligne précédente, ajouter la ligne `documentclass: book` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
 
 Vous voulez que les liens de type URL soient plus évidents? De la même façon que la ligne précédente, ajouter la ligne `urlcolor: blue` à l'en-tête, compiler le résultat, et observer les changements.
 

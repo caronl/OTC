@@ -26,7 +26,7 @@ il serait peut-être intéressant pour vous de commencer à utiliser RMarkdown.�
 
 $\quad$ - Samuel Cabral Cruz
 
-$\quad$ Analyste en actuariat chez DGAG, gradué en 2015
+$\quad$ Analyste en actuariat chez DGAG, promotion 2015
 
 ## Plan de match
 
@@ -170,6 +170,24 @@ Programmation lettrée
 
 [LCULaval.github.io](http://lculaval.github.io)
 
+## Balises du code R
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_balises.jpg)
+
+Raccourci clavier RStudio :
+
+- Ctrl + Alt + I
+
+## Options d'affichage du code R
+
+**echo** : affiche le code source si **TRUE** (par défaut)
+
+**eval** : affiche la sortie si **TRUE** (par défaut)
+
+## Options d'affichage du code R
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_options_affichage.jpg)
+
 ## R Markdown
 
 Extrait du travail pratique
@@ -182,16 +200,6 @@ Solution : simplement en affichant le data.frame
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_3_panneaux_solution_TP.jpg)
 $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdownFlow.png)
-
-## Options d'affichage du code R
-
-**echo** : affiche le code source si **TRUE** (par défaut)
-
-**eval** : affiche la sortie si **TRUE** (par défaut)
-
-## Options d'affichage du code R
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_options_affichage.jpg)
 
 ## Exercice 3 : Options d'affichage du code R
 
