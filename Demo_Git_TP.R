@@ -6,6 +6,6 @@ plot(cars)
 
 x <- 1:10
 
-mean(x)
+median(x)
 
 ### Numéro 2
