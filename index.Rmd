@@ -321,6 +321,8 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 - Gardé plusieurs versions d'un même fichier à la fois?
 
+    - (Fichier_le_bon_V2 FINAL)
+
 - Voulu vérifier la différence entre deux versions ou plus de votre fichier?
 
 - Voulu revoir l'historique de votre fichier?
@@ -403,10 +405,10 @@ Dépôt :
     - Hébergement
     - Interface Web pour gérer le dépôt
 
-- Projets _open source_
-    - Cette présentation
+- Version gratuite :
+    - Dépôts publics seulement
 
-- Entreprises
+- Version commerciale :
     - Google
     - Facebook
     - Microsoft
@@ -418,9 +420,10 @@ Dépôt :
     - Hébergement **optionnel**
     - Interface Web pour gérer le dépôt
     
-- Projets _open source_
+- Version gratuite :
+    - Dépôts publics **et privés**
 
-- Entreprises
+- Version commerciale :
     - IBM
     - Expedia
     - NASA
