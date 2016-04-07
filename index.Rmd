@@ -160,13 +160,13 @@ Programmation lettrée
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
 
-## Exercice 1 : Installation de R Markdown {.center}
+## Exercice 1 : Installation de R Markdown {.flexbox .vcenter}
 
-### [LCULaval.github.io](http://lculaval.github.io)
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
 
-## Exercice 2 : Compilation d'un fichier source
+## Exercice 2 : Compilation d'un fichier source {.flexbox .vcenter}
 
-### [LCULaval.github.io](http://lculaval.github.io)
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
 
 ## Balises du code R
 
@@ -201,9 +201,9 @@ Solution : simplement en affichant le data.frame
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_3_panneaux_solution_TP.jpg)
 $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdownFlow.png)
 
-## Exercice 3 : Options d'affichage du code R
+## Exercice 3 : Options d'affichage du code R {.flexbox .vcenter}
 
-### [LCULaval.github.io](http://lculaval.github.io)
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
 
 ## Solution Exercice 3
 
@@ -218,9 +218,9 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 - Diapositives (HTML ou PDF)
 - Word
 
-## Exercice 4 : Formats R Markdown
+## Exercice 4 : Formats R Markdown {.flexbox .vcenter}
 
-### [LCULaval.github.io](http://lculaval.github.io)
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
 
 ## Personnalisation du format
 
@@ -231,13 +231,13 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 ## Exercice 5 : Personnalisation du format
 
-Version PDF (pour ceux qui ont installé TeX)
+### Version PDF (pour ceux qui ont installé TeX)
 
-### [LCULaval.github.io](http://lculaval.github.io)
+[LCULaval.github.io](http://lculaval.github.io)
 
-Version HTML (pour les autres)
+### Version HTML (pour les autres)
 
-### [LCULaval.github.io](http://lculaval.github.io)
+[LCULaval.github.io](http://lculaval.github.io)
 
 <br>
 <br>
@@ -262,13 +262,13 @@ Sorties R au fil du texte
 
 ## Exercice supplémentaire : Outils Supplémentaires
 
-Version PDF (pour ceux qui ont installé TeX)
+### Version PDF (pour ceux qui ont installé TeX)
 
-### [LCULaval.github.io](http://lculaval.github.io)
+[LCULaval.github.io](http://lculaval.github.io)
 
-Version HTML (pour les autres)
+### Version HTML (pour les autres)
 
-### [LCULaval.github.io](http://lculaval.github.io)
+[LCULaval.github.io](http://lculaval.github.io)
 
 <br>
 <br>
@@ -289,9 +289,9 @@ Comment récupérer le code R contenu dans un document R Markdown?
     
     - `purl("Fichier.Rmd")` $\qquad$ → $\quad$ .R
 
-## Exercice supplémentaire : Extraction du code R contenu dans un document R Markdown
+## Exercice supplémentaire : Extraction du code R contenu dans un document R Markdown {.flexbox .vcenter}
 
-### [LCULaval.github.io](http://lculaval.github.io)
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
 
 ## Documentation R Markdown
 
