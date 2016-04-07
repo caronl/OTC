@@ -26,7 +26,9 @@ La formation sera beaucoup basée sur l'utilisation de RStudio, avec aussi des i
 
 Depuis l'invite de commande de R, entrer
 
+``` r
 install.packages("rmarkdown")
+```
 
 Ceci installera également des packages dépendants.
 
@@ -50,10 +52,13 @@ Installer à partir de https://git-scm.com/downloads
 
 Nous recommandons d'installer les outils de développement d'Apple. C'est un peu plus complexe au départ, mais plus simple à long terme. Tout d'abord installer XCode depuis le App Store. Ensuite, ouvrir l'application Terminal (dans Applications -> Utilitaires) et essayer d'exécuter la commande
 
+``` git
 git
+```
 
 Si git n'est pas disponible, cela devrait vous offrir d'installer les Command Line Tools. Suivre les indications. Vous pouvez aussi lancer l'installation avec 
 
+``` git
 xcode-select --install
-
+```
 ***********************
