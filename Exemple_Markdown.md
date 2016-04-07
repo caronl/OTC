@@ -25,3 +25,8 @@ Code : mean(rnorm(50))
 ![Logo RStudio](https://www.rstudio.com/wp-content/uploads/2014/03/blue-125.png)  
 
 [Recherche Google](www.google.com)
+
+
+
+
+
