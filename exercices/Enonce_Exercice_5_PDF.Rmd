@@ -55,7 +55,7 @@ De la même façon que la ligne précédente, ajouter la ligne `geometry: margin
 
 Fermer le document PDF.
 
-De la même façon que la ligne précédente, ajouter la ligne `lang: fr` à l'en-tête, compiler le résultat, et observer les changements.
+De la même façon que la ligne précédente, ajouter la ligne `lang: fr` à l'en-tête, compiler le résultat, et observer les changements. **Remarque** : Sur certains postes de travail, l'option devra plutôt se nommer `lang: french` pour produire le résultat escompté.
 
 Fermer le document PDF.
 
