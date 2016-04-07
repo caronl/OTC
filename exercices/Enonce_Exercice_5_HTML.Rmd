@@ -11,7 +11,9 @@ et l'enregistrer dans un dossier pertinent.
 
 Ouvrir le fichier dans votre éditeur de texte favori.
 
-Compiler le fichier.
+Compiler le fichier et observer le résultat.
+
+**Fermer le document HTML, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
 
 Dans l'en-tête du document, ajouter un `:` après l'option `html_document`. Le `:` indique au compilateur qu'une option de niveau inférieur suivra.
 

@@ -112,7 +112,7 @@ if(i==0.15) cat("i equals 0.15") else cat("i does not equal 0.15")
 Code source et sortie
 
 ```r
-  (i <- 5)
+  2+3
 ```
 
 ```
@@ -121,13 +121,13 @@ Code source et sortie
 
 
 
-
 --------------------
+
 
 Code source
 
 ```r
-  (i <- 5)
+  2+3
 ```
 
 --------------------
@@ -148,6 +148,12 @@ Sortie
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -215,6 +221,11 @@ En simulant encore une fois 10 000 mains aléatoirement, tout en forçant le pre
 ## J4            1750            0.175
 ```
 Tout comme au premier numéro, nous avons distribué ici les égalités également entre les joueurs impliqués dans chaque égalité. Toutefois, il peut être intéressant de se
+
+
+
+
+
 
 
 
