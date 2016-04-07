@@ -160,13 +160,13 @@ Programmation lettrée
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
 
-## Exercice 1 : Installation de R Markdown
+## Exercice 1 : Installation de R Markdown {.center}
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 ## Exercice 2 : Compilation d'un fichier source
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 ## Balises du code R
 
@@ -203,7 +203,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 ## Exercice 3 : Options d'affichage du code R
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 ## Solution Exercice 3
 
@@ -220,7 +220,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 ## Exercice 4 : Formats R Markdown
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 ## Personnalisation du format
 
@@ -233,11 +233,11 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 Version PDF (pour ceux qui ont installé TeX)
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 Version HTML (pour les autres)
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 <br>
 <br>
@@ -264,11 +264,11 @@ Sorties R au fil du texte
 
 Version PDF (pour ceux qui ont installé TeX)
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 Version HTML (pour les autres)
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 <br>
 <br>
@@ -291,7 +291,7 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 ## Exercice supplémentaire : Extraction du code R contenu dans un document R Markdown
 
-[LCULaval.github.io](http://lculaval.github.io)
+### [LCULaval.github.io](http://lculaval.github.io)
 
 ## Documentation R Markdown
 
