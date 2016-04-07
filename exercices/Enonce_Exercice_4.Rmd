@@ -9,6 +9,8 @@ et l'enregistrer dans un dossier pertinent.
 
 Ouvrir le fichier dans votre éditeur de texte favori.
 
+Compiler le fichier tel quel. Un document HTML sera produit.
+
 Dans l'en-tête, remplacer `html_document` par `word_document` et enregistrer le fichier :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_4_1.jpg)
