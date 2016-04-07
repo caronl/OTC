@@ -65,8 +65,8 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 Utilisateurs : 
 
-* Stack Exchange
 * Stack Overflow
+* Stack Exchange
 * Blogs
       
 ## Markdown
@@ -172,15 +172,17 @@ Programmation lettrée
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_balises.jpg)
 
-Raccourci clavier RStudio :
+RStudio :
 
-- Ctrl + Alt + I
+- Raccourci clavier: Ctrl + Alt + I
+
+- Bouton Vert "chunk"
 
 ## Options d'affichage du code R
 
 **echo** : affiche le code source si **TRUE** (par défaut)
 
-**eval** : affiche la sortie si **TRUE** (par défaut)
+**eval** : exécute le code et affiche la sortie si **TRUE** (par défaut)
 
 ## Options d'affichage du code R
 
@@ -250,7 +252,7 @@ Pour obtenir Tex
 
 Équations
 
-- `$\sqrt(4x^2) = 2x$`
+- `$\sqrt{4x^2} = 2x$`
 - $\sqrt{4x^2} = 2x$
 
 Sorties R au fil du texte
@@ -419,7 +421,7 @@ Dépôt :
 ## GitLab
 
 - GitLab.com
-    - Hébergement **optionnel**
+    - Hébergement
     - Interface Web pour gérer le dépôt
     
 - Version gratuite :

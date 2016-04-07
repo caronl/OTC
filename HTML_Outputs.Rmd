@@ -116,24 +116,24 @@ if(i==0.15) cat("i equals 0.15") else cat("i does not equal 0.15")
 
 Code source et sortie
 ```{r echo = TRUE, eval = TRUE}
-  (i <- 5)
+  2+3
 ```
-
 
 
 
 --------------------
 
+
 Code source
 ```{r echo = TRUE, eval = FALSE}
-  (i <- 5)
+  2+3
 ```
 
 --------------------
 
 Sortie
 ```{r echo = FALSE, eval = TRUE}
-  (i <- 5)
+  2+3
 ```
 
 
@@ -146,6 +146,12 @@ Sortie
 
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
