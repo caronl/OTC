@@ -63,13 +63,11 @@ Dernière mise à jour en 2004
 
 Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
 
-  * wikitexte
-      * Wikipedia
-  
-  * Markdown
-      * Stack Exchange
-      * Stack Overflow
-      * Blogs
+Utilisateurs : 
+
+* Stack Exchange
+* Stack Overflow
+* Blogs
       
 ## Markdown
 
@@ -301,9 +299,9 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 [Guide de référence R Markdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
 
-[Guide knitr](http://kbroman.org/knitr_knutshell/)
-
 [Options PDF de R Markdown](http://rmarkdown.rstudio.com/pdf_document_format.html)
+
+[Guide knitr](http://kbroman.org/knitr_knutshell/)
 
 [Options knitr](http://yihui.name/knitr/options/)
 
@@ -331,7 +329,7 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 - Voulu tester un ajout sans interférer avec la version actuelle d'un fichier?
 
-## Moi oui
+## ...moi oui!
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
 
@@ -380,13 +378,17 @@ Dépôt :
 ## ... décentralisé ...
 
 - Chaque collaborateur détient une copie du serveur
+
 - Permet de travailler avant d'obtenir les permissions
+
 - Permet de travailler hors ligne
 
 ## ... libre
 
 - Gratuit
+
 - En croissance
+
 - Collaboration
 
 ## Utilisateurs du système Git
@@ -395,7 +397,7 @@ Dépôt :
 
 ## Git
 
-- Commande à la ligne
+- Ligne de commande
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_ligne_commande_git.jpg)
 
@@ -433,22 +435,25 @@ Dépôt :
 
 Interaction avec un dépôt Git intégrée à RStudio
 
+## Démonstration
+
+Démonstration d'une séance de travail
+
 ## Documentation Git
 
-[Git et RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+[**Tutoriel sur le système Git**](http://try.github.io)
 
-[try.github.io](http://try.github.io)
+[Intégrer Git à RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 
-[Principes des logiciels de gestion de versions](http://betterexplained.com/articles/a-visual-guide-to-version-control/)  
+[Les logiciels de gestion de versions expliqués](http://betterexplained.com/articles/a-visual-guide-to-version-control/)  
 * Les images des diapositives **Logiciel de gestion de versions...** proviennent de cette page
 
-
 [Git pour les nuls](http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/)
-
-[Comment utiliser les _patch_](https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
-
-[_patch Workflow_](http://rypress.com/tutorials/git/patch-workflows)
 
 [Guides GitHub](https://guides.github.com/)
 
 [Pro Git Book](https://git-scm.com/book/fr/v2)
+
+[Comment utiliser les _patch_](https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
+
+[_patch Workflow_](http://rypress.com/tutorials/git/patch-workflows)
