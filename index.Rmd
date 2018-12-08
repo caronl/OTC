@@ -209,7 +209,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 ## Solution Exercice 3
 
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images\img_solution_exercice_3.jpg)
+![](https://cdn.jsdelivr.net/gh/LCULaval/OTC@gh-pages/images\img_solution_exercice_3.jpg)
 
 ## Formats R Markdown
 
